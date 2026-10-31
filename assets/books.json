@@ -1,10 +1,8 @@
 {
-  "generated_at": "2026-11-01 Asia/Shanghai",
+  "generated_at": "2026-11-01T01:55:00+08:00",
   "source_file": "/workspace/memoir/books-found.json",
-  "total": 63,
-  "with_cover": 63,
-  "real_covers": 46,
-  "placeholders": 17,
+  "total": 65,
+  "with_cover": 65,
   "without_cover": 0,
   "books": [
     {
@@ -15,17 +13,19 @@
       "cover_provider": "douban",
       "matched_title": "斗破苍穹",
       "matched_author": "天蚕土豆",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/斗破苍穹 附录/无限小说网_55x.cn_斗破苍穹.txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/斗破苍穹 附录/无限小说网_55x.cn_斗破苍穹.txt",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s34931368.jpg"
     },
     {
       "title": "斗罗大陆",
       "author": "唐家三少",
       "source": "onedrive",
       "cover": "book-covers/斗罗大陆.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/斗罗大陆.txt"
+      "cover_provider": "douban",
+      "matched_title": "斗罗大陆（全14卷）",
+      "matched_author": "唐家三少",
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/斗罗大陆.txt",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s6847563.jpg"
     },
     {
       "title": "诛仙",
@@ -35,7 +35,8 @@
       "cover_provider": "douban",
       "matched_title": "诛仙",
       "matched_author": "箫鼎",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/诛仙.txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/诛仙.txt",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s3055502.jpg"
     },
     {
       "title": "吞噬星空",
@@ -45,7 +46,8 @@
       "cover_provider": "douban",
       "matched_title": "吞噬星空·觉醒1",
       "matched_author": "我吃西红柿",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/吞噬星空.txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/吞噬星空.txt",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s10413135.jpg"
     },
     {
       "title": "武动乾坤",
@@ -65,7 +67,8 @@
       "cover_provider": "douban",
       "matched_title": "兽王",
       "matched_author": "雨魔",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/兽王TXT全集下载.txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/兽王TXT全集下载.txt",
+      "cover_url": "https://img2.doubanio.com/view/subject/l/public/s5906351.jpg"
     },
     {
       "title": "驭兽斋",
@@ -75,7 +78,8 @@
       "cover_provider": "douban",
       "matched_title": "驭兽斋1·幻兽少年",
       "matched_author": "雨魔",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/驭兽斋（全本）作者：雨魔.txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/驭兽斋（全本）作者：雨魔.txt",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s1565516.jpg"
     },
     {
       "title": "兽神",
@@ -85,7 +89,8 @@
       "cover_provider": "douban",
       "matched_title": "兽神",
       "matched_author": "雨魔",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/兽神(雨魔) .txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/兽神(雨魔) .txt",
+      "cover_url": "https://img2.doubanio.com/view/subject/l/public/s6087151.jpg"
     },
     {
       "title": "网游之再生勇士",
@@ -105,7 +110,8 @@
       "cover_provider": "placeholder",
       "matched_title": null,
       "matched_author": null,
-      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/黑道特种兵.txt"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/E-Book/书/黑道特种兵.txt",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/99/0b/29/990b2969-7cde-1619-2ef8-c8d1127ab29c/1062603814.jpg/600x600bb.jpg"
     },
     {
       "title": "聪明的投资者",
@@ -115,7 +121,8 @@
       "cover_provider": "douban",
       "matched_title": "聪明的投资者（第4版注疏点评版）",
       "matched_author": "【美】本杰明•格雷厄姆",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/聪明的投资者（美）本杰明·格雷厄姆.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/聪明的投资者（美）本杰明·格雷厄姆.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s34918327.jpg"
     },
     {
       "title": "投资最重要的事",
@@ -125,17 +132,19 @@
       "cover_provider": "douban",
       "matched_title": "投资最重要的事",
       "matched_author": "[美] 霍华德·马克斯 Howard Marks",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/霍华德马克斯.投资最重要的事.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/霍华德马克斯.投资最重要的事.pdf",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s10389195.jpg"
     },
     {
       "title": "周期",
       "author": "霍华德·马克斯",
       "source": "onedrive",
       "cover": "book-covers/周期.jpg",
-      "cover_provider": "fetched",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/电子书-《周期》-霍华德·马克斯.pdf"
+      "cover_provider": "openlibrary",
+      "matched_title": "Mastering The Market Cycle",
+      "matched_author": "Howard Marks",
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/电子书-《周期》-霍华德·马克斯.pdf",
+      "cover_url": "https://covers.openlibrary.org/b/id/10221762-L.jpg"
     },
     {
       "title": "股票大作手回忆录",
@@ -145,7 +154,8 @@
       "cover_provider": "douban",
       "matched_title": "股票大作手回忆录",
       "matched_author": "[美] 埃德温·勒菲弗",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/股票大作手回忆录  珍藏版(高清).pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/股票大作手回忆录  珍藏版(高清).pdf",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s35289374.jpg"
     },
     {
       "title": "巴菲特之道",
@@ -155,7 +165,8 @@
       "cover_provider": "douban",
       "matched_title": "巴菲特之道 (第3版)",
       "matched_author": "[美] 罗伯特·哈格斯特朗",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/《巴菲特之道 (第三版)》高清版.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/《巴菲特之道 (第三版)》高清版.pdf",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s34914546.jpg"
     },
     {
       "title": "巴菲特投资策略全书",
@@ -165,7 +176,8 @@
       "cover_provider": "douban",
       "matched_title": "巴菲特投资策略全书",
       "matched_author": "谢德高(编译)",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/巴菲特投资策略全书.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/巴菲特投资策略全书.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s1022517.jpg"
     },
     {
       "title": "探索智慧：从达尔文到芒格",
@@ -175,17 +187,19 @@
       "cover_provider": "douban",
       "matched_title": "探索智慧",
       "matched_author": "皮特·贝弗林",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/探索智慧：从达尔文到芒格.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/探索智慧：从达尔文到芒格.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s33680413.jpg"
     },
     {
       "title": "段永平商业问答录",
       "author": "段永平",
       "source": "onedrive",
       "cover": "book-covers/段永平商业问答录.jpg",
-      "cover_provider": "fetched",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/段永平商业问答录.pdf"
+      "cover_provider": "douban",
+      "matched_title": "段永平投资问答录（投资逻辑篇）",
+      "matched_author": "段永平",
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/段永平商业问答录.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s33773072.jpg"
     },
     {
       "title": "段永平投资问答录（商业逻辑篇）",
@@ -195,27 +209,30 @@
       "cover_provider": "douban",
       "matched_title": "段永平投资问答录（商业逻辑篇）",
       "matched_author": "段永平",
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/雪球特别版-段永平投资问答录（商业逻辑篇）.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/雪球特别版-段永平投资问答录（商业逻辑篇）.pdf",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s33758445.jpg"
     },
     {
       "title": "张坤投资思想文集",
       "author": "张坤",
       "source": "onedrive",
       "cover": "book-covers/张坤投资思想文集.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
+      "cover_provider": "douban",
+      "matched_title": "张坤",
       "matched_author": null,
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/《张坤投资思想文集》.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/《张坤投资思想文集》.pdf",
+      "cover_url": "https://img3.doubanio.com/f/vendors/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/personage-default-medium.png"
     },
     {
       "title": "邱国鹭文集",
       "author": "邱国鹭",
       "source": "onedrive",
       "cover": "book-covers/邱国鹭文集.jpg",
-      "cover_provider": "fetched",
-      "matched_title": null,
+      "cover_provider": "douban",
+      "matched_title": "邱国鹭",
       "matched_author": null,
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/邱国鹭文集.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/邱国鹭文集.pdf",
+      "cover_url": "https://img3.doubanio.com/view/personage/m/public/70628c658d8f95275987a71012d31eca.jpg"
     },
     {
       "title": "陈光明文集",
@@ -225,7 +242,8 @@
       "cover_provider": "placeholder",
       "matched_title": null,
       "matched_author": null,
-      "path_or_url": "OneDrive:/#Career/投研/投资哲学/陈光明文集.pdf"
+      "path_or_url": "OneDrive:/#Career/投研/投资哲学/陈光明文集.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/75/1d/08/751d086c-a196-e0a8-56d0-83b44a34ee40/Ares.jpg/600x600bb.jpg"
     },
     {
       "title": "高瓴资本张磊文集",
@@ -255,7 +273,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Valuation: Measuring and Managing the Value of Companies, University Edition",
       "matched_author": "Tim Koller, Marc Goedhart & David Wessels",
-      "path_or_url": "OneDrive:/#Career/#估值建模/Tim Koller, Marc Goedhart, David Wessels - Valuation_ Measuring and Managing the Value of Companies-John Wiley & Sons (2020).pdf"
+      "path_or_url": "OneDrive:/#Career/#估值建模/Tim Koller, Marc Goedhart, David Wessels - Valuation_ Measuring and Managing the Value of Companies-John Wiley & Sons (2020).pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/fd/c4/9c/fdc49c99-7105-8c09-c22c-7dc0bbcaa5ce/9781394279487.jpg/600x600bb.jpg"
     },
     {
       "title": "Investment Valuation",
@@ -265,7 +284,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Investment Valuation",
       "matched_author": "Aswath Damodaran",
-      "path_or_url": "OneDrive:/#Career/#估值建模/Investment Valuation-tools and Techniques for Determining the Value of Any Asset.pdf"
+      "path_or_url": "OneDrive:/#Career/#估值建模/Investment Valuation-tools and Techniques for Determining the Value of Any Asset.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/10/00/b1/1000b1af-94f5-b45b-65b6-0dfcb1c4a197/9781394254613.jpg/600x600bb.jpg"
     },
     {
       "title": "Vault Career Guide to Investment Banking",
@@ -275,7 +295,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "The Last Tycoons",
       "matched_author": "William D. Cohan",
-      "path_or_url": "OneDrive:/#Career/#估值建模/Vault_Career_Guide_to_Investment_Banking_.pdf"
+      "path_or_url": "OneDrive:/#Career/#估值建模/Vault_Career_Guide_to_Investment_Banking_.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/83/5c/52/835c5221-c428-fc19-33ee-8ab0e7bbf6bb/9780385521772.jpg/600x600bb.jpg"
     },
     {
       "title": "Investment Banking: Valuation, LBOs, M&A, and IPOs",
@@ -285,7 +306,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Investment Banking",
       "matched_author": "Joshua Rosenbaum & Joshua Pearl",
-      "path_or_url": "OneDrive:/#Career/投行/(Wiley Finance) Joshua Rosenbaum, Joshua Pearl - Investment Banking_ Valuation, LBOs, M&A, and IPOs-Wiley (2020).pdf"
+      "path_or_url": "OneDrive:/#Career/投行/(Wiley Finance) Joshua Rosenbaum, Joshua Pearl - Investment Banking_ Valuation, LBOs, M&A, and IPOs-Wiley (2020).pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/ab/a1/02/aba10247-1e84-42f2-3cdf-a083645bc785/9781119867883.jpg/600x600bb.jpg"
     },
     {
       "title": "投行职业进阶指南",
@@ -295,7 +317,8 @@
       "cover_provider": "douban",
       "matched_title": "投行职业进阶指南",
       "matched_author": "王大力",
-      "path_or_url": "OneDrive:/#Career/投行/《投行职业进阶指南》.pdf"
+      "path_or_url": "OneDrive:/#Career/投行/《投行职业进阶指南》.pdf",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s33681244.jpg"
     },
     {
       "title": "投行小兵——企业上市解决之道",
@@ -325,7 +348,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Advances in Financial Machine Learning",
       "matched_author": "Marcos Lopez de Prado",
-      "path_or_url": "OneDrive:/#Career/量化/Advances_in_Financial_Machine_Learning.pdf"
+      "path_or_url": "OneDrive:/#Career/量化/Advances_in_Financial_Machine_Learning.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/1a/7d/b5/1a7db51e-be87-a95a-af44-8a57aa7cd7ce/9781119482109.jpg/600x600bb.jpg"
     },
     {
       "title": "Machine Learning for Asset Managers",
@@ -335,7 +359,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Machine Learning for Asset Managers",
       "matched_author": "Marcos M. López de Prado",
-      "path_or_url": "OneDrive:/#Career/量化/Machine Learning for Asset Managers by Marcos M. López de Prado (z-lib.org).pdf"
+      "path_or_url": "OneDrive:/#Career/量化/Machine Learning for Asset Managers by Marcos M. López de Prado (z-lib.org).pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/b8/fb/ff/b8fbff10-326a-6b23-a71f-e4e293efd8fb/9781108885409.jpg/600x600bb.jpg"
     },
     {
       "title": "Finding Alphas",
@@ -345,7 +370,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Finding Alphas",
       "matched_author": "Igor Tulchinsky",
-      "path_or_url": "OneDrive:/#Career/量化/Finding-alphas-2019.pdf"
+      "path_or_url": "OneDrive:/#Career/量化/Finding-alphas-2019.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/0c/10/8e/0c108e55-c7a1-8286-ddfe-9786009b78b7/9781119571261.jpg/600x600bb.jpg"
     },
     {
       "title": "Systematic Trading",
@@ -355,7 +381,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Systematic Trading",
       "matched_author": "Robert Carver",
-      "path_or_url": "OneDrive:/#Career/量化/Systematic_Trading_－_A_unique_new_method_for_designing_trading_and_investing_systems.pdf"
+      "path_or_url": "OneDrive:/#Career/量化/Systematic_Trading_－_A_unique_new_method_for_designing_trading_and_investing_systems.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/37/fc/31/37fc319e-ff6c-266d-5c5f-9e857abb2000/9780857195005.jpg/600x600bb.jpg"
     },
     {
       "title": "量价分析：量价分析创始人威科夫的盘口解读方法",
@@ -365,7 +392,8 @@
       "cover_provider": "douban",
       "matched_title": "量价分析",
       "matched_author": "[英]安娜·库林",
-      "path_or_url": "OneDrive:/Investment/研究报告/量价分析：量价分析创始人威科夫的盘口解读方法-安娜·库林.pdf"
+      "path_or_url": "OneDrive:/Investment/研究报告/量价分析：量价分析创始人威科夫的盘口解读方法-安娜·库林.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s29067968.jpg"
     },
     {
       "title": "Business Statistics",
@@ -375,7 +403,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Introductory Business Statistics",
       "matched_author": "OpenStax",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/Business Statistics-DESKTOP-9S3GLAF/Business Statistics.pdf"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/Business Statistics-DESKTOP-9S3GLAF/Business Statistics.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/fe/da/62/feda62e1-9236-06e2-9b5f-f97c5d52d219/cover2500_1.jpg/600x600bb.jpg"
     },
     {
       "title": "Fundamentals of Management",
@@ -385,7 +414,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Fundamentals of Technical Product Management",
       "matched_author": "Tariq Syed",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/Principles of Management/Fundamentals of Management.pdf"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/Principles of Management/Fundamentals of Management.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/26/35/83/26358375-c4f3-094e-4d4d-1e6c7d94ddb5/9780463475195.jpg/600x600bb.jpg"
     },
     {
       "title": "Microeconomics: Canada in the Global Environment",
@@ -395,7 +425,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Microeconomics in Context",
       "matched_author": "Neva Goodwin, Jonathan M. Harris, Julie A. Nelson, Pratistha Joshi Rajkarnikar, Brian Roach & Mariano Torras",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/Principles of Economics I/Microeconomics-CanadaintheGlobalEnvironment.pdf"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/Principles of Economics I/Microeconomics-CanadaintheGlobalEnvironment.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/95/5f/6a/955f6ab5-6ca2-5f4a-ed02-1ff0fa5cfd56/9781000791105.jpg/600x600bb.jpg"
     },
     {
       "title": "置身事内：中国政府与经济发展",
@@ -405,7 +436,8 @@
       "cover_provider": "douban",
       "matched_title": "置身事内",
       "matched_author": "兰小欢",
-      "path_or_url": "/电子书/置身事内 繁体书/置身事內：中國政府與經濟發展.pdf"
+      "path_or_url": "/电子书/置身事内 繁体书/置身事內：中國政府與經濟發展.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s33956867.jpg"
     },
     {
       "title": "财富捷径：直达财务自由的路线图",
@@ -415,7 +447,8 @@
       "cover_provider": "douban",
       "matched_title": "财富捷径",
       "matched_author": "硅谷居士",
-      "path_or_url": "/电子书/《财富捷径》_ 直达财务自由的路线图 (2026年修订简体中文版) (Traditional_chinese Edition)/财富捷径书本/财富捷径_ 直达财务自由的路线图 (2026年修订简体中文版) (Traditional_chinese Edition) - 硅谷 居士.pdf"
+      "path_or_url": "/电子书/《财富捷径》_ 直达财务自由的路线图 (2026年修订简体中文版) (Traditional_chinese Edition)/财富捷径书本/财富捷径_ 直达财务自由的路线图 (2026年修订简体中文版) (Traditional_chinese Edition) - 硅谷 居士.pdf",
+      "cover_url": "https://img2.doubanio.com/view/subject/l/public/s35294481.jpg"
     },
     {
       "title": "人生财富靠康波",
@@ -425,7 +458,8 @@
       "cover_provider": "douban",
       "matched_title": "人生财富靠康波",
       "matched_author": "周金涛",
-      "path_or_url": "/电子书/2024年-人生财富靠康波周金涛代找卫星Bury-reborn.pdf"
+      "path_or_url": "/电子书/2024年-人生财富靠康波周金涛代找卫星Bury-reborn.pdf",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s35014703.jpg"
     },
     {
       "title": "周金涛理论大集",
@@ -445,7 +479,8 @@
       "cover_provider": "douban",
       "matched_title": "估值的艺术",
       "matched_author": "[英] 尼古拉斯·斯密德林",
-      "path_or_url": "/Carrer/ePUBw.COM - 估值的艺术：110个解读案例.pdf"
+      "path_or_url": "/Carrer/ePUBw.COM - 估值的艺术：110个解读案例.pdf",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s34705464.jpg"
     },
     {
       "title": "Options, Futures, and Other Derivatives",
@@ -455,7 +490,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Options, Futures And Other Derivatives, ePub, Global Edition",
       "matched_author": "John C. Hull",
-      "path_or_url": "/OneDrive-HKU/MFIN6003 Derivative Securities/John C Hull - Options, Futures, and Other Derivatives-Pearson (2018).pdf"
+      "path_or_url": "/OneDrive-HKU/MFIN6003 Derivative Securities/John C Hull - Options, Futures, and Other Derivatives-Pearson (2018).pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/be/47/09/be4709e8-8789-31d7-1f7e-ba1f2c494010/9781292406336_marketingimage.jpg/600x600bb.jpg"
     },
     {
       "title": "小会计成长记：像喝咖啡一样轻松学财会",
@@ -465,7 +501,8 @@
       "cover_provider": "douban",
       "matched_title": "小会计成长记",
       "matched_author": "默默",
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《小会计成长记：像喝咖啡一样轻松学财会》.rar"
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《小会计成长记：像喝咖啡一样轻松学财会》.rar",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s26370759.jpg"
     },
     {
       "title": "七十年代",
@@ -475,7 +512,8 @@
       "cover_provider": "douban",
       "matched_title": "七十年代",
       "matched_author": "北岛",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s3908803.jpg"
     },
     {
       "title": "苏东坡传",
@@ -485,7 +523,8 @@
       "cover_provider": "douban",
       "matched_title": "苏东坡传",
       "matched_author": "林语堂",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s28942595.jpg"
     },
     {
       "title": "欲乐园",
@@ -495,7 +534,8 @@
       "cover_provider": "douban",
       "matched_title": "欲乐园",
       "matched_author": "(日)渡边淳一",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s27907132.jpg"
     },
     {
       "title": "心美，一切皆美",
@@ -505,7 +545,8 @@
       "cover_provider": "douban",
       "matched_title": "心美，一切皆美",
       "matched_author": "林清玄",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s7656570.jpg"
     },
     {
       "title": "数学与人类思维",
@@ -515,7 +556,8 @@
       "cover_provider": "douban",
       "matched_title": "数学与人类思维",
       "matched_author": "[法] 大卫·吕埃勒",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s33978028.jpg"
     },
     {
       "title": "袁世凯传",
@@ -525,7 +567,8 @@
       "cover_provider": "douban",
       "matched_title": "袁世凯传",
       "matched_author": "苏全有",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s26600056.jpg"
     },
     {
       "title": "中国最后一个大儒",
@@ -535,27 +578,30 @@
       "cover_provider": "douban",
       "matched_title": "中国最后一个大儒",
       "matched_author": "梁培恕",
-      "path_or_url": "https://book.douban.com/people/53211590/"
+      "path_or_url": "https://book.douban.com/people/53211590/",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s6312637.jpg"
     },
     {
       "title": "会计女生成长丛书1：跟妈妈学会计",
       "author": null,
       "source": "baidu-netdisk",
       "cover": "book-covers/会计女生成长丛书1跟妈妈学会计.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书1：跟妈妈学会计》.rar"
+      "cover_provider": "douban",
+      "matched_title": "跟妈妈学会计",
+      "matched_author": "王秀霞",
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书1：跟妈妈学会计》.rar",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s10266518.jpg"
     },
     {
       "title": "会计女生成长丛书2：在广告公司当会计",
       "author": null,
       "source": "baidu-netdisk",
       "cover": "book-covers/会计女生成长丛书2在广告公司当会计.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书2：在广告公司当会计》.rar"
+      "cover_provider": "douban",
+      "matched_title": "在广告公司当会计",
+      "matched_author": "王秀霞",
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书2：在广告公司当会计》.rar",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s4590866.jpg"
     },
     {
       "title": "会计女生成长丛书3：在商店当会计",
@@ -572,30 +618,33 @@
       "author": null,
       "source": "baidu-netdisk",
       "cover": "book-covers/会计女生成长丛书4在建筑公司当会计.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书4：在建筑公司当会计》.rar"
+      "cover_provider": "douban",
+      "matched_title": "在建筑公司当会计",
+      "matched_author": "王秀霞",
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书4：在建筑公司当会计》.rar",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s4218648.jpg"
     },
     {
       "title": "会计女生成长丛书5：在工厂当会计",
       "author": null,
       "source": "baidu-netdisk",
       "cover": "book-covers/会计女生成长丛书5在工厂当会计.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书5-在工厂当会计》.rar"
+      "cover_provider": "douban",
+      "matched_title": "在工厂当会计",
+      "matched_author": "王秀霞",
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《会计女生成长丛书5-在工厂当会计》.rar",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s6150042.jpg"
     },
     {
       "title": "一本书学会做数据分析：成功商务人士案头必备",
       "author": null,
       "source": "baidu-netdisk",
       "cover": "book-covers/一本书学会做数据分析成功商务人士案头必备.jpg",
-      "cover_provider": "placeholder",
-      "matched_title": null,
-      "matched_author": null,
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《一本书学会做数据分析：成功商务人士案头必备》.rar"
+      "cover_provider": "douban",
+      "matched_title": "一本书学会做数据分析",
+      "matched_author": "李宗民",
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《一本书学会做数据分析：成功商务人士案头必备》.rar",
+      "cover_url": "https://img2.doubanio.com/view/subject/l/public/s4486141.jpg"
     },
     {
       "title": "一本书读懂中国税",
@@ -605,7 +654,8 @@
       "cover_provider": "douban",
       "matched_title": "一本书读懂中国税",
       "matched_author": "言谭",
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《一本书读懂中国税》.rar"
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《一本书读懂中国税》.rar",
+      "cover_url": "https://img3.doubanio.com/view/subject/l/public/s27032979.jpg"
     },
     {
       "title": "三天学会纳税(你的第一本纳税书)",
@@ -615,7 +665,8 @@
       "cover_provider": "douban",
       "matched_title": "三天学会纳税",
       "matched_author": "方琼慧",
-      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《三天学会纳税(你的第一本纳税书)》.rar"
+      "path_or_url": "/Carrer/c.p.a&c.f.a/C.P.A大神六科笔记及财会电子书/财会电子书50本 （1.5G）/《三天学会纳税(你的第一本纳税书)》.rar",
+      "cover_url": "https://img9.doubanio.com/view/subject/l/public/s24506444.jpg"
     },
     {
       "title": "Risk Management and Financial Institutions",
@@ -625,7 +676,8 @@
       "cover_provider": "itunes:us",
       "matched_title": "Risk Management and Financial Institutions",
       "matched_author": "John C. Hull",
-      "path_or_url": "OneDrive:/OneDrive - XMUM/Risk Management/(Wiley Finance) John C. Hull - Risk Management and Financial Institutions-Wiley (2015).pdf"
+      "path_or_url": "OneDrive:/OneDrive - XMUM/Risk Management/(Wiley Finance) John C. Hull - Risk Management and Financial Institutions-Wiley (2015).pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/f2/bb/ce/f2bbce8b-cb4c-46df-a23b-2641ee77eafa/9781119932499.jpg/600x600bb.jpg"
     },
     {
       "title": "Breaking Into Wall Street: The 400 Most Common Interview Questions",
@@ -635,7 +687,27 @@
       "cover_provider": "itunes:us",
       "matched_title": "Breaking the Blue Wall",
       "matched_author": "Justin Hopson",
-      "path_or_url": "OneDrive:/#Career/#估值建模/Breaking Into Wall Street - The 400 Most Common I.pdf"
+      "path_or_url": "OneDrive:/#Career/#估值建模/Breaking Into Wall Street - The 400 Most Common I.pdf",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Publication/d0/69/96/mzi.feoilqpb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "万磁王2：翻转",
+      "year": "2019",
+      "cover": "book-covers/magneto-2-flip.jpg",
+      "source": "douban",
+      "doubanUrl": "https://book.douban.com/subject/34461047/",
+      "rating": 5
+    },
+    {
+      "title": "活着",
+      "year": "2012",
+      "cover": "book-covers/to-live-yu-hua.jpg",
+      "source": "douban",
+      "doubanUrl": "https://book.douban.com/subject/4913064/",
+      "rating": 5
     }
-  ]
+  ],
+  "real_covers": 53,
+  "placeholders": 10,
+  "douban_profile": "https://www.douban.com/people/135418632/"
 }

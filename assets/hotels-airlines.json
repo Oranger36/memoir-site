@@ -1,0 +1,422 @@
+{
+  "generated": "2026-11-01",
+  "sources": [
+    "travel-footprints.json",
+    "qq-mail-travel-hits.json",
+    "Gmail IHG/Marriott/Hilton/EVA/Cathay",
+    "Outlook Marriott/Hilton",
+    "Gmail Oct 2026 boarding/hotel folios"
+  ],
+  "hotels": [
+    {
+      "id": "marriott-wuxi",
+      "name": "无锡绿发万豪",
+      "brand": "Marriott",
+      "brand_zh": "万豪",
+      "logo": "marriott.svg",
+      "place": "无锡",
+      "dates": [
+        "2026-10-27"
+      ],
+      "evidence": "travel-footprints / 行程"
+    },
+    {
+      "id": "fairfield-nanjing",
+      "name": "Fairfield Nanjing Yuhuatai",
+      "brand": "Fairfield by Marriott",
+      "brand_zh": "南京雨花台 Fairfield",
+      "logo": "fairfield.svg",
+      "place": "南京",
+      "dates": [
+        "2026-10-28"
+      ],
+      "evidence": "travel-footprints"
+    },
+    {
+      "id": "marriott-toronto",
+      "name": "Toronto Marriott City Centre",
+      "brand": "Marriott",
+      "brand_zh": "多伦多万豪市中心",
+      "logo": "marriott.svg",
+      "place": "Toronto",
+      "dates": [
+        "2026-10"
+      ],
+      "evidence": "Project Nova footprints"
+    },
+    {
+      "id": "hi-mississauga",
+      "name": "Holiday Inn Mississauga Toronto West",
+      "brand": "Holiday Inn / IHG",
+      "brand_zh": "假日酒店",
+      "logo": "holiday-inn.svg",
+      "place": "Mississauga",
+      "dates": [
+        "2026-10-21"
+      ],
+      "evidence": "IHG survey email"
+    },
+    {
+      "id": "cp-zhengzhou",
+      "name": "郑州高新皇冠假日酒店",
+      "brand": "Crowne Plaza / IHG",
+      "brand_zh": "皇冠假日",
+      "logo": "crowne-plaza.svg",
+      "place": "郑州",
+      "dates": [
+        "2026-01",
+        "2026-02",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-09"
+      ],
+      "evidence": "QQ folio/invoice ×9+"
+    },
+    {
+      "id": "cp-nanchang",
+      "name": "南昌力高皇冠假日酒店",
+      "brand": "Crowne Plaza / IHG",
+      "brand_zh": "皇冠假日",
+      "logo": "crowne-plaza.svg",
+      "place": "南昌",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "hotel thank-you"
+    },
+    {
+      "id": "shangri-la-fuzhou",
+      "name": "福州香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "福州",
+      "dates": [
+        "2024-10"
+      ],
+      "evidence": "invoice"
+    },
+    {
+      "id": "orange-crystal-cs",
+      "name": "桔子水晶·长沙芙蓉中路省博物院云端",
+      "brand": "华住 · 桔子水晶",
+      "brand_zh": "桔子水晶",
+      "logo": "huazhu.svg",
+      "place": "长沙",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "Huazhu invoice"
+    },
+    {
+      "id": "nanyang-peninsula",
+      "name": "南阳建业森林半岛假日酒店",
+      "brand": "建业半岛假日",
+      "brand_zh": "半岛假日",
+      "logo": "generic-hotel.svg",
+      "place": "南阳",
+      "dates": [
+        "2025-02"
+      ],
+      "evidence": "invoice"
+    },
+    {
+      "id": "livemax-fukuoka",
+      "name": "LiVEMAX Fukuoka Tenjin West",
+      "brand": "Hotel LiVEMAX",
+      "brand_zh": "LiVEMAX",
+      "logo": "livemax.svg",
+      "place": "福冈",
+      "dates": [
+        "2024-07"
+      ],
+      "evidence": "Kyushu footprints"
+    },
+    {
+      "id": "nanjing-lingxiang",
+      "name": "南京领香酒店",
+      "brand": "领香",
+      "brand_zh": "领香",
+      "logo": "generic-hotel.svg",
+      "place": "南京",
+      "dates": [
+        "2026-10"
+      ],
+      "evidence": "Gmail 发票 南京领香"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb 住宿",
+      "brand": "Airbnb",
+      "brand_zh": "Airbnb",
+      "logo": "airbnb.svg",
+      "place": "苏州 / 槟城 / 吉隆坡等",
+      "dates": [
+        "2018-02",
+        "2022"
+      ],
+      "evidence": "Airbnb confirmations"
+    },
+    {
+      "id": "canada-house",
+      "name": "加拿大之家 B&B",
+      "brand": "B&B",
+      "brand_zh": "加拿大之家",
+      "logo": "generic-hotel.svg",
+      "place": "加拿大",
+      "dates": [
+        "2017-10"
+      ],
+      "evidence": "confirmation 2017"
+    },
+    {
+      "id": "hilton-seattle",
+      "name": "Hilton Garden Inn Seattle Downtown",
+      "brand": "Hilton",
+      "brand_zh": "希尔顿花园",
+      "logo": "hilton.svg",
+      "place": "Seattle",
+      "dates": [
+        "2026-10"
+      ],
+      "evidence": "Gmail Trip.com hotel email Oct 2026"
+    }
+  ],
+  "hotels_weak": [
+    {
+      "id": "hanting-gz",
+      "name": "汉庭酒店(广州岗顶西店)",
+      "brand": "华住 · 汉庭",
+      "brand_zh": "汉庭",
+      "logo": "hanting.svg",
+      "place": "广州",
+      "dates": [
+        "2023-04"
+      ],
+      "evidence": "Ctrip；宾客名异，弱证据",
+      "weak": true
+    }
+  ],
+  "brands": [
+    {
+      "id": "marriott",
+      "name": "Marriott Bonvoy",
+      "zh": "万豪",
+      "logo": "marriott.svg",
+      "stays": [
+        "无锡绿发万豪",
+        "Toronto Marriott",
+        "Fairfield Nanjing"
+      ]
+    },
+    {
+      "id": "ihg",
+      "name": "IHG One Rewards",
+      "zh": "洲际优悦会",
+      "logo": "ihg.svg",
+      "stays": [
+        "Crowne Plaza 郑州/南昌",
+        "Holiday Inn Mississauga"
+      ]
+    },
+    {
+      "id": "crowne-plaza",
+      "name": "Crowne Plaza",
+      "zh": "皇冠假日",
+      "logo": "crowne-plaza.svg",
+      "stays": [
+        "郑州高新",
+        "南昌力高"
+      ]
+    },
+    {
+      "id": "holiday-inn",
+      "name": "Holiday Inn",
+      "zh": "假日酒店",
+      "logo": "holiday-inn.svg",
+      "stays": [
+        "Mississauga Toronto West"
+      ]
+    },
+    {
+      "id": "fairfield",
+      "name": "Fairfield",
+      "zh": "Fairfield",
+      "logo": "fairfield.svg",
+      "stays": [
+        "Nanjing Yuhuatai"
+      ]
+    },
+    {
+      "id": "shangri-la",
+      "name": "Shangri-La",
+      "zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "stays": [
+        "福州"
+      ]
+    },
+    {
+      "id": "huazhu",
+      "name": "Huazhu",
+      "zh": "华住",
+      "logo": "huazhu.svg",
+      "stays": [
+        "桔子水晶",
+        "汉庭"
+      ]
+    },
+    {
+      "id": "hilton",
+      "name": "Hilton Honors",
+      "zh": "希尔顿荣誉客会",
+      "logo": "hilton.svg",
+      "stays": [
+        "Hilton Garden Inn Seattle Downtown"
+      ]
+    },
+    {
+      "id": "livemax",
+      "name": "Hotel LiVEMAX",
+      "zh": "LiVEMAX",
+      "logo": "livemax.svg",
+      "stays": [
+        "福冈天神西"
+      ]
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "zh": "Airbnb",
+      "logo": "airbnb.svg",
+      "stays": [
+        "苏州",
+        "槟城",
+        "吉隆坡"
+      ]
+    }
+  ],
+  "airlines": [
+    {
+      "id": "hu",
+      "iata": "HU",
+      "name": "Hainan Airlines",
+      "zh": "海南航空",
+      "logo": "hainan.svg",
+      "flights": 11,
+      "note": "登机牌主承运"
+    },
+    {
+      "id": "cx",
+      "iata": "CX",
+      "name": "Cathay Pacific",
+      "zh": "国泰航空",
+      "logo": "cathay.svg",
+      "flights": 5,
+      "note": "CX393/337 PEK→HKG · CX821 YYZ→HKG · CX7893 SEA→MSP 等"
+    },
+    {
+      "id": "cz",
+      "iata": "CZ",
+      "name": "China Southern",
+      "zh": "南方航空",
+      "logo": "china-southern.svg",
+      "flights": 3,
+      "note": "登机牌 + 电子客票"
+    },
+    {
+      "id": "y8",
+      "iata": "Y8",
+      "name": "Suparna Airlines",
+      "zh": "金鹏航空",
+      "logo": "suparna.svg",
+      "flights": 3
+    },
+    {
+      "id": "aa",
+      "iata": "AA",
+      "name": "American Airlines",
+      "zh": "美国航空",
+      "logo": "american.svg",
+      "flights": 2,
+      "note": "AA1658 ELP→DFW · AA2804 DFW→YYZ (Ctrip 商旅)"
+    },
+    {
+      "id": "br",
+      "iata": "BR",
+      "name": "EVA Air",
+      "zh": "长荣航空",
+      "logo": "eva.svg",
+      "flights": 2,
+      "note": "BR007 SFO→TPE · BR857 TPE→HKG (Trip.com)"
+    },
+    {
+      "id": "pn",
+      "iata": "PN",
+      "name": "West Air",
+      "zh": "西部航空",
+      "logo": "west-air.svg",
+      "flights": 2
+    },
+    {
+      "id": "3u",
+      "iata": "3U",
+      "name": "Sichuan Airlines",
+      "zh": "四川航空",
+      "logo": "sichuan.svg",
+      "flights": 1
+    },
+    {
+      "id": "9c",
+      "iata": "9C",
+      "name": "Spring Airlines",
+      "zh": "春秋航空",
+      "logo": "spring.svg",
+      "flights": 1,
+      "note": "2023 电子发票"
+    },
+    {
+      "id": "ca",
+      "iata": "CA",
+      "name": "Air China",
+      "zh": "中国国际航空",
+      "logo": "air-china.svg",
+      "flights": 1
+    },
+    {
+      "id": "dl",
+      "iata": "DL",
+      "name": "Delta Air Lines",
+      "zh": "达美航空",
+      "logo": "delta.svg",
+      "flights": 1,
+      "note": "DL1713 ATL→ELP (Ctrip 商旅 Oct 2026)"
+    },
+    {
+      "id": "hx",
+      "iata": "HX",
+      "name": "Hong Kong Airlines",
+      "zh": "香港航空",
+      "logo": "hongkong-airlines.svg",
+      "flights": 1,
+      "note": "Gmail feedback survey Oct 2026"
+    },
+    {
+      "id": "mu",
+      "iata": "MU",
+      "name": "China Eastern",
+      "zh": "东方航空",
+      "logo": "china-eastern.svg",
+      "flights": 1
+    },
+    {
+      "id": "zh",
+      "iata": "ZH",
+      "name": "Shenzhen Airlines",
+      "zh": "深圳航空",
+      "logo": "shenzhen-air.svg",
+      "flights": 1
+    }
+  ]
+}

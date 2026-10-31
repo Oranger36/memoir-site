@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" role="img" aria-label="Hong Kong Airlines">
+  <rect width="280" height="80" rx="12" fill="#E60012"/>
+  <circle cx="44" cy="40" r="18" fill="#FFFFFF" opacity="0.95"/>
+  <path d="M32 40c6-10 18-10 24 0" stroke="#E60012" stroke-width="3" fill="none"/>
+  <text x="78" y="36" fill="#FFFFFF" font-family="Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700">HONG KONG</text>
+  <text x="78" y="56" fill="#FFFFFF" font-family="Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1">AIRLINES</text>
+</svg>
