@@ -1,0 +1,1262 @@
+{
+  "source": "Music.app + YouTube Music (signed-in scrape)",
+  "fetched_at": "2026-11-01T00:22:16+0800",
+  "albums": [
+    {
+      "album": "G-BLOCK Mixtape",
+      "artist": "GAI, 盛宇, 功夫胖 & 劉聰",
+      "count": 14,
+      "cover": "covers/gai-盛宇-功夫胖-劉聰-g-block-mixtape.jpg",
+      "playlists": [
+        "YouTube Music · 《G-BLOCK Mixtape》"
+      ],
+      "sources": [
+        "YouTube Music"
+      ]
+    },
+    {
+      "album": "Dear Moon - EP",
+      "artist": "moon tang",
+      "count": 6,
+      "cover": "covers/moon-tang-dear-moon-ep.jpg",
+      "playlists": [
+        "YouTube Music · dear moon ☽ my first EP"
+      ],
+      "sources": [
+        "YouTube Music"
+      ]
+    },
+    {
+      "album": "阿姨",
+      "artist": "MC HotDog",
+      "count": 1,
+      "cover": "covers/mc-hotdog-阿姨.jpg",
+      "playlists": [
+        "YouTube Music"
+      ],
+      "sources": [
+        "YouTube Music"
+      ],
+      "year": 2022,
+      "kind": "Single"
+    },
+    {
+      "album": "Everything I Know About Love",
+      "artist": "Laufey",
+      "count": 1,
+      "cover": "covers/laufey-everything-i-know-about-love.jpg",
+      "playlists": [
+        "YouTube Music"
+      ],
+      "sources": [
+        "YouTube Music"
+      ],
+      "year": 2022,
+      "kind": "Album"
+    },
+    {
+      "album": "回到2000",
+      "artist": "KEY.L劉聰",
+      "count": 8,
+      "cover": "covers/key-l劉聰-回到2000.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "YouTube Music"
+      ],
+      "sources": [
+        "Music.app",
+        "YouTube Music"
+      ]
+    },
+    {
+      "album": "DRIP",
+      "artist": "BABYMONSTER",
+      "count": 6,
+      "cover": "covers/babymonster-drip.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Mr. Morale & The Big Steppers",
+      "artist": "Kendrick Lamar",
+      "count": 6,
+      "cover": "covers/kendrick-lamar-mr-morale-the-big-steppers.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "DAMN. COLLECTORS EDITION.",
+      "artist": "Kendrick Lamar",
+      "count": 4,
+      "cover": "covers/kendrick-lamar-damn-collectors-edition.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Humble Swag",
+      "artist": "Masiwei",
+      "count": 4,
+      "cover": "covers/masiwei-humble-swag.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "The Dreamer",
+      "artist": "Khalil Fong",
+      "count": 4,
+      "cover": "covers/khalil-fong-the-dreamer.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "YouTube Music"
+      ],
+      "sources": [
+        "Music.app",
+        "YouTube Music"
+      ]
+    },
+    {
+      "album": "The Lottery",
+      "artist": "Masiwei",
+      "count": 4,
+      "cover": "covers/masiwei-the-lottery.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "演.说.家",
+      "artist": "Yitai Wang",
+      "count": 4,
+      "cover": "covers/yitai-wang-演-说-家.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "理想国 (feat. 李沐籽, 谢帝, 黄旭, MC光光, 法老, 张恋歌 & step.jad依加)",
+      "artist": "KeyNG",
+      "count": 4,
+      "cover": "covers/keyng-理想国-feat-李沐籽-谢帝-黄旭-mc光光-法老-张恋歌-step-jad依加.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "2025 廣東歌世一",
+      "artist": "Various Artists",
+      "count": 3,
+      "cover": "covers/various-artists-2025-廣東歌世一.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "AIR·艾热",
+      "artist": "AIR",
+      "count": 3,
+      "cover": "covers/air-air-艾热.jpg",
+      "playlists": [
+        "Rap"
+      ]
+    },
+    {
+      "album": "BRAT",
+      "artist": "Charli xcx",
+      "count": 3,
+      "cover": "covers/charli-xcx-brat.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Big Thing",
+      "artist": "MJ116",
+      "count": 3,
+      "cover": "covers/mj116-big-thing.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "City Zoo",
+      "artist": "G.E.M.",
+      "count": 3,
+      "cover": "covers/g-e-m--city-zoo.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Culture III",
+      "artist": "Migos",
+      "count": 3,
+      "cover": "covers/migos-culture-iii.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Dark Horse",
+      "artist": "Masiwei",
+      "count": 3,
+      "cover": "covers/masiwei-dark-horse.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Stacks from All Sides",
+      "artist": "SKAI ISYOURGOD",
+      "count": 3,
+      "cover": "covers/skai-isyourgod-stacks-from-all-sides.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Tizzy T",
+      "artist": "Tizzy T",
+      "count": 3,
+      "cover": "covers/tizzy-t-tizzy-t.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "信徒",
+      "artist": "BO$$ X",
+      "count": 3,
+      "cover": "covers/bo-x-信徒.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "2000年代必唱K歌",
+      "artist": "Various Artists",
+      "count": 2,
+      "cover": "covers/various-artists-2000年代必唱k歌.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "KTV"
+      ]
+    },
+    {
+      "album": "ATLANTIS",
+      "artist": "GALI",
+      "count": 2,
+      "cover": "covers/gali-atlantis.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Armageddon - The 1st Album",
+      "artist": "aespa",
+      "count": 2,
+      "cover": "covers/aespa-armageddon---the-1st-album.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "BABYMONS7ER - EP",
+      "artist": "BABYMONSTER",
+      "count": 2,
+      "cover": "covers/babymonster-babymons7er---ep.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Black Cab",
+      "artist": "Higher Brothers",
+      "count": 2,
+      "cover": "covers/higher-brothers-black-cab.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "Champion Love Songs - EP",
+      "artist": "Masiwei",
+      "count": 2,
+      "cover": "covers/masiwei-champion-love-songs---ep.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Culture",
+      "artist": "Migos",
+      "count": 2,
+      "cover": "covers/migos-culture.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Culture II",
+      "artist": "Migos",
+      "count": 2,
+      "cover": "covers/migos-culture-ii.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Dark Horse Season (Live)",
+      "artist": "Masiwei",
+      "count": 2,
+      "cover": "covers/masiwei-dark-horse-season-live.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "Disgusted Artist",
+      "artist": "MC HotDog",
+      "count": 2,
+      "cover": "covers/mc-hotdog-disgusted-artist.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "KTV"
+      ]
+    },
+    {
+      "album": "Dog Bite Dog",
+      "artist": "Masiwei & Asen",
+      "count": 2,
+      "cover": "covers/masiwei-asen-dog-bite-dog.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Early Believers",
+      "artist": "Kero One",
+      "count": 2,
+      "cover": "covers/kero-one-early-believers.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Five Stars",
+      "artist": "Higher Brothers",
+      "count": 2,
+      "cover": "covers/higher-brothers-five-stars.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Free Soul",
+      "artist": "Li Ronghao",
+      "count": 2,
+      "cover": "covers/li-ronghao-free-soul.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Ghetto Superstar 2009-2012 Best Singles Collection",
+      "artist": "MC HotDog",
+      "count": 2,
+      "cover": "covers/mc-hotdog-ghetto-superstar-2009-2012-best-singles-collection.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "ICEMAN",
+      "artist": "Drake",
+      "count": 2,
+      "cover": "covers/drake-iceman.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "If the World Was Ending (feat. Julia Michaels) - Single",
+      "artist": "JP Saxe",
+      "count": 2,
+      "cover": "covers/jp-saxe-if-the-world-was-ending-feat-julia-michaels---single.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Cozy"
+      ]
+    },
+    {
+      "album": "Justice",
+      "artist": "Justin Bieber",
+      "count": 2,
+      "cover": "covers/justin-bieber-justice.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Lotion",
+      "artist": "Soft Lipa",
+      "count": 2,
+      "cover": "covers/soft-lipa-lotion.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Luv(sic) Hexalogy",
+      "artist": "Nujabes",
+      "count": 2,
+      "cover": "covers/nujabes-luv-sic-hexalogy.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Cozy"
+      ]
+    },
+    {
+      "album": "Mommae - Single",
+      "artist": "Jay Park",
+      "count": 2,
+      "cover": "covers/jay-park-mommae---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "No.6 Collaborations Project",
+      "artist": "Ed Sheeran",
+      "count": 2,
+      "cover": "covers/ed-sheeran-no-6-collaborations-project.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Prince Charming",
+      "artist": "Masiwei & Higher Brothers",
+      "count": 2,
+      "cover": "covers/masiwei-higher-brothers-prince-charming.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "STRIPELIFE",
+      "artist": "GALI",
+      "count": 2,
+      "cover": "covers/gali-stripelife.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Sorry - Single",
+      "artist": "After Journey",
+      "count": 2,
+      "cover": "covers/after-journey-sorry---single.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "Stoney",
+      "artist": "Post Malone",
+      "count": 2,
+      "cover": "covers/post-malone-stoney.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Street Beethoven",
+      "artist": "KnowKnow",
+      "count": 2,
+      "cover": "covers/knowknow-street-beethoven.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "THE PROTÉGÉ",
+      "artist": "Gareth.T",
+      "count": 2,
+      "cover": "covers/gareth-t-the-protégé.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Windmills of the Soul",
+      "artist": "Kero One",
+      "count": 2,
+      "cover": "covers/kero-one-windmills-of-the-soul.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "good kid, m.A.A.d city (Deluxe)",
+      "artist": "Kendrick Lamar",
+      "count": 2,
+      "cover": "covers/kendrick-lamar-good-kid-m-a-a-d-city-deluxe.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "i am > i was",
+      "artist": "21 Savage",
+      "count": 2,
+      "cover": "covers/21-savage-i-am-i-was.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "周润发 - Single",
+      "artist": "Jony J",
+      "count": 2,
+      "cover": "covers/jony-j-周润发---single.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "學友.熱",
+      "artist": "Jacky Cheung",
+      "count": 2,
+      "cover": "covers/jacky-cheung-學友-熱.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "KTV"
+      ]
+    },
+    {
+      "album": "蔡镇鸿",
+      "artist": "BO$$ X",
+      "count": 2,
+      "cover": "covers/bo-x-蔡镇鸿.jpg",
+      "playlists": [
+        "Rap"
+      ]
+    },
+    {
+      "album": "贫民百万男孩 - Single",
+      "artist": "MC HotDog & Tizzy T",
+      "count": 2,
+      "cover": "covers/mc-hotdog-tizzy-t-贫民百万男孩---single.jpg",
+      "playlists": [
+        "Favourite Songs",
+        "Rap"
+      ]
+    },
+    {
+      "album": "\"The Mixtape\"",
+      "artist": "Miyauchi",
+      "count": 1,
+      "cover": "covers/miyauchi--the-mixtape.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "#osnrap",
+      "artist": "Osn",
+      "count": 1,
+      "cover": "covers/osn--osnrap.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "10,000 Hours - Single",
+      "artist": "Dan + Shay & Justin Bieber",
+      "count": 1,
+      "cover": "covers/dan-shay-justin-bieber-10-000-hours---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "100 GIGS - Single",
+      "artist": "Drake",
+      "count": 1,
+      "cover": "covers/drake-100-gigs---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "11 - Single",
+      "artist": "G.E.M.",
+      "count": 1,
+      "cover": "covers/g-e-m--11---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "1996 (Re-Mastered)",
+      "artist": "Ryuichi Sakamoto",
+      "count": 1,
+      "cover": "covers/ryuichi-sakamoto-1996-re-mastered.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "1day (R) - Single",
+      "artist": "FARMHOUSE, Kee Rooz & RhymeTube",
+      "count": 1,
+      "cover": "covers/farmhouse-kee-rooz-rhymetube-1day-r---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "2000年代唱K必點",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-2000年代唱k必點.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "2014 Forest Hills Drive",
+      "artist": "J. Cole",
+      "count": 1,
+      "cover": "covers/j-cole-2014-forest-hills-drive.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "221 (feat. ZORN) - Single",
+      "artist": "AKLO",
+      "count": 1,
+      "cover": "covers/aklo-221-feat-zorn---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "222",
+      "artist": "Lil Tjay",
+      "count": 1,
+      "cover": "covers/lil-tjay-222.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "24/7, 365 - Single",
+      "artist": "elijah woods",
+      "count": 1,
+      "cover": "covers/elijah-woods-24-7-365---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "247 - Single",
+      "artist": "COPAK",
+      "count": 1,
+      "cover": "covers/copak-247---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "24K Magic",
+      "artist": "Bruno Mars",
+      "count": 1,
+      "cover": "covers/bruno-mars-24k-magic.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "3 Corners",
+      "artist": "Edison Chen, MC Yan & Chef",
+      "count": 1,
+      "cover": "covers/edison-chen-mc-yan-chef-3-corners.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "4am in Tokyo - Single",
+      "artist": "Yusei",
+      "count": 1,
+      "cover": "covers/yusei-4am-in-tokyo---single.jpg",
+      "playlists": [
+        "Cozy"
+      ]
+    },
+    {
+      "album": "80s & 90s C-Pop",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-80s-90s-c-pop.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "A Star Is Born Soundtrack (Without Dialogue)",
+      "artist": "Lady Gaga & Bradley Cooper",
+      "count": 1,
+      "cover": "covers/lady-gaga-bradley-cooper-a-star-is-born-soundtrack-without-dialogue.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "APT. - Single",
+      "artist": "ROSÉ & Bruno Mars",
+      "count": 1,
+      "cover": "covers/rosé-bruno-mars-apt---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "ASTER - EP",
+      "artist": "Islet",
+      "count": 1,
+      "cover": "covers/islet-aster---ep.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Ain't Worried Bout None (feat. Mukade) - Single",
+      "artist": "Z1真一",
+      "count": 1,
+      "cover": "covers/z1真一-ain-t-worried-bout-none-feat-mukade---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Airplane Tickets - Single",
+      "artist": "Pharrell Williams, Swae Lee & Rauw Alejandro",
+      "count": 1,
+      "cover": "covers/pharrell-williams-swae-lee-rauw-alejandro-airplane-tickets---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Album 1st",
+      "artist": "Tyson Yoshi",
+      "count": 1,
+      "cover": "covers/tyson-yoshi-album-1st.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "All About Love",
+      "artist": "Pakho Chau",
+      "count": 1,
+      "cover": "covers/pakho-chau-all-about-love.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Almost Healed",
+      "artist": "Lil Durk",
+      "count": 1,
+      "cover": "covers/lil-durk-almost-healed.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Amaetyate Sorry - Single",
+      "artist": "AYA a.k.a PANDA",
+      "count": 1,
+      "cover": "covers/aya-a-k-a-panda-amaetyate-sorry---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "American Teen",
+      "artist": "Khalid",
+      "count": 1,
+      "cover": "covers/khalid-american-teen.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Annyeonghaseyo - Single",
+      "artist": "Yuki Chiba & Lil Moshpit",
+      "count": 1,
+      "cover": "covers/yuki-chiba-lil-moshpit-annyeonghaseyo---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Answer",
+      "artist": "MIREI",
+      "count": 1,
+      "cover": "covers/mirei-answer.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Asian Chill",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-asian-chill.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Asian State of Mind - Single",
+      "artist": "Awich, Jay Park, KR$NA, Masiwei & VannDa",
+      "count": 1,
+      "cover": "covers/awich-jay-park-kr-na-masiwei-vannda-asian-state-of-mind---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "BAD HOP HOUSE",
+      "artist": "BAD HOP",
+      "count": 1,
+      "cover": "covers/bad-hop-bad-hop-house.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "BAD HOP WORLD DELUXE",
+      "artist": "BAD HOP",
+      "count": 1,
+      "cover": "covers/bad-hop-bad-hop-world-deluxe.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "BIG BRO - Single",
+      "artist": "GAI",
+      "count": 1,
+      "cover": "covers/gai-big-bro---single.jpg",
+      "playlists": [
+        "Rap"
+      ]
+    },
+    {
+      "album": "Back For Everything",
+      "artist": "Kodak Black",
+      "count": 1,
+      "cover": "covers/kodak-black-back-for-everything.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Bad Habits - Single",
+      "artist": "Ed Sheeran",
+      "count": 1,
+      "cover": "covers/ed-sheeran-bad-habits---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Bangerz (Deluxe Version)",
+      "artist": "Miley Cyrus",
+      "count": 1,
+      "cover": "covers/miley-cyrus-bangerz-deluxe-version.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Bansanka - Single",
+      "artist": "TUKI.",
+      "count": 1,
+      "cover": "covers/tuki--bansanka---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Beatopia",
+      "artist": "beabadoobee",
+      "count": 1,
+      "cover": "covers/beabadoobee-beatopia.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Best Friend - Single",
+      "artist": "Eric Chou",
+      "count": 1,
+      "cover": "covers/eric-chou-best-friend---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Better 2025 Jiangsu Satellite TV New Year's Eve Concert",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-better-2025-jiangsu-satellite-tv-new-year-s-eve-concert.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Better Than Sunset - Single",
+      "artist": "Tr33, BK & Seluu",
+      "count": 1,
+      "cover": "covers/tr33-bk-seluu-better-than-sunset---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Big Energy (Remix) [feat. DJ Khaled] - Single",
+      "artist": "Latto & Mariah Carey",
+      "count": 1,
+      "cover": "covers/latto-mariah-carey-big-energy-remix-feat-dj-khaled---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Black Panther: The Album",
+      "artist": "Kendrick Lamar",
+      "count": 1,
+      "cover": "covers/kendrick-lamar-black-panther-the-album.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Black Panther: Wakanda Forever - Music From and Inspired By",
+      "artist": "Rihanna & Tems",
+      "count": 1,
+      "cover": "covers/rihanna-tems-black-panther-wakanda-forever---music-from-and-inspired-by.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Blue",
+      "artist": "Alfred Hui",
+      "count": 1,
+      "cover": "covers/alfred-hui-blue.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Breezin'",
+      "artist": "George Benson",
+      "count": 1,
+      "cover": "covers/george-benson-breezin.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Buds Montage - Single",
+      "artist": "Namedarumaaz, BADSAIKUSH, Delta9kid & G-PLANTS",
+      "count": 1,
+      "cover": "covers/namedarumaaz-badsaikush-delta9kid-g-plants-buds-montage---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "C-Pop Ballads",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-c-pop-ballads.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "C-Pop Chill",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-c-pop-chill.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "CAN'T BUY MY LOVE",
+      "artist": "YUI",
+      "count": 1,
+      "cover": "covers/yui-can-t-buy-my-love.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "CASANOVA",
+      "artist": "THOME",
+      "count": 1,
+      "cover": "covers/thome-casanova.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "CHIN UP!",
+      "artist": "Eason Chan",
+      "count": 1,
+      "cover": "covers/eason-chan-chin-up.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Calm Moments - EP",
+      "artist": "David Ehrlin & Razz T",
+      "count": 1,
+      "cover": "covers/david-ehrlin-razz-t-calm-moments---ep.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Changes",
+      "artist": "Justin Bieber",
+      "count": 1,
+      "cover": "covers/justin-bieber-changes.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Chill Bill (feat. J. Davi$ & Spooks) - Single",
+      "artist": "Rob $tone",
+      "count": 1,
+      "cover": "covers/rob-tone-chill-bill-feat-j-davi-spooks---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Christy - Single",
+      "artist": "Tyson Yoshi",
+      "count": 1,
+      "cover": "covers/tyson-yoshi-christy---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Chu Hi - Single",
+      "artist": "MIYACHI",
+      "count": 1,
+      "cover": "covers/miyachi-chu-hi---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Cold Beer & Country Music",
+      "artist": "Zach Top",
+      "count": 1,
+      "cover": "covers/zach-top-cold-beer-country-music.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Collection 2",
+      "artist": "kobasolo",
+      "count": 1,
+      "cover": "covers/kobasolo-collection-2.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Cosmo's Factory",
+      "artist": "Creedence Clearwater Revival",
+      "count": 1,
+      "cover": "covers/creedence-clearwater-revival-cosmo-s-factory.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "Crazy Rich Asians (Original Motion Picture Soundtrack)",
+      "artist": "Various Artists",
+      "count": 1,
+      "cover": "covers/various-artists-crazy-rich-asians-original-motion-picture-soundtrack.jpg",
+      "playlists": [
+        "Rap"
+      ]
+    },
+    {
+      "album": "Crush (feat. Kelsey Kuan) - Single",
+      "artist": "Gareth.T",
+      "count": 1,
+      "cover": "covers/gareth-t-crush-feat-kelsey-kuan---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "DD backseat - Single",
+      "artist": "Top Barry & Rapeter",
+      "count": 1,
+      "cover": "covers/top-barry-rapeter-dd-backseat---single.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "DIVE",
+      "artist": "TWICE",
+      "count": 1,
+      "cover": "covers/twice-dive.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    },
+    {
+      "album": "DNA (Remix) - Single",
+      "artist": "Jay Park, YLN Foreign, D.Ark, 365LIT, pH-1, lIlBOI, Lee Young Ji, Ourealgoat, Choo & OSUN",
+      "count": 1,
+      "cover": "covers/jay-park-yln-foreign-d-ark-365lit-ph-1-lilboi-lee-young-ji-ourealgoat-choo-osun-.jpg",
+      "playlists": [
+        "Favourite Songs"
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "album": "Mr. Yao's 8th Grade Syndrome",
+      "artist": "MC HotDog",
+      "error": "no_results"
+    },
+    {
+      "album": "Extinguisher needed",
+      "artist": "Ty. & KKECHO",
+      "error": "no_results"
+    },
+    {
+      "album": "夜行动物园",
+      "artist": "Tizzy T",
+      "error": "no_results"
+    },
+    {
+      "album": "Miriam's Music Box (Special Edition)",
+      "artist": "Miriam Yeung",
+      "error": "no_results"
+    },
+    {
+      "album": "夜郎溪",
+      "artist": "王齐铭WatchMe",
+      "error": "no_results"
+    },
+    {
+      "album": "你最好知道 - EP",
+      "artist": "Tizzy T",
+      "error": "no_results"
+    },
+    {
+      "album": "Couple Hunnid Mixtape Vol.1",
+      "artist": "BO$$ X",
+      "error": "no_results"
+    },
+    {
+      "album": "Couple Hunnid Mixtape Vol.2",
+      "artist": "BO$$ X",
+      "error": "no_results"
+    },
+    {
+      "album": "Feel or Beef Badpop Is Dead - Single",
+      "artist": "Namedarumaaz",
+      "error": "no_results"
+    }
+  ],
+  "youtube_music": {
+    "scraped_at": "2026-11-01T00:22:16+0800",
+    "playlists": [
+      "Liked Music",
+      "Jazz Focus",
+      "Super Chill",
+      "《G-BLOCK Mixtape》",
+      "dear moon ☽ my first EP",
+      "Cozy",
+      "🇯🇵 Japan Jazz",
+      "Laid-Back Hip Hop",
+      "The Smoothest of Smooth Jazz",
+      "KTV",
+      "All-Time Easy Acoustics",
+      "Canto Romance",
+      "Lofi Loft",
+      "Country Hits 2022",
+      "Cozy Jazz",
+      "Rap!!!",
+      "流行",
+      "2022 EP - C.1.P",
+      "相声",
+      "Episodes for Later"
+    ],
+    "albums_raw": [
+      {
+        "album": "Everything I Know About Love",
+        "artist": "Laufey",
+        "year": 2022,
+        "kind": "Album"
+      },
+      {
+        "album": "The Dreamer",
+        "artist": "Khalil Fong",
+        "year": 2024,
+        "kind": "Album"
+      },
+      {
+        "album": "回到2000",
+        "artist": "KEY.L刘聪",
+        "year": 2023,
+        "kind": "Album"
+      },
+      {
+        "album": "阿姨",
+        "artist": "MC HotDog熱狗",
+        "year": 2022,
+        "kind": "Single"
+      }
+    ]
+  },
+  "album_count": 124
+}
