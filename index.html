@@ -289,38 +289,63 @@ body::before{
 .stub span{font-size:12px;color:var(--muted);letter-spacing:.12em;opacity:.65}
 
 
+
 .map-stage{
-  max-width:1280px;margin:0 auto;padding:0 20px 8px;
+  max-width:1280px;margin:0 auto;padding:8px 20px 16px;
   position:relative;
+  display:flex;flex-direction:column;align-items:center;
 }
 .map-frame{
   position:relative;
-  background:linear-gradient(180deg,#14120e 0%,#0e0d0b 100%);
-  border:1px solid var(--line);
-  box-shadow:0 24px 80px rgba(0,0,0,.55), inset 0 1px 0 rgba(242,235,224,.04);
+  /* cinema-rail card: soft paper, gold edge, depth — not a flat strip */
+  background:
+    radial-gradient(ellipse 85% 70% at 50% 42%, rgba(48,42,32,.55) 0%, transparent 62%),
+    linear-gradient(165deg, #1a1712 0%, #100e0b 48%, #0c0b09 100%);
+  border:1px solid rgba(201,168,106,.22);
+  border-radius:16px;
+  box-shadow:
+    0 28px 90px rgba(0,0,0,.6),
+    0 0 0 1px rgba(242,235,224,.03) inset,
+    inset 0 1px 0 rgba(242,235,224,.06);
   overflow:hidden;
-  /* lock canvas to world equirectangular 2:1 — prevents China/admin stretch */
-  aspect-ratio: var(--map-ar, 2 / 1);
-  width:100%;
-  height:auto;
-  min-height:0;
-  transition: aspect-ratio .55s cubic-bezier(.2,.8,.2,1);
+  /* natural bbox aspect; width capped by max-height so maps never squash */
+  --map-ar: 2;
+  --map-max-h: 560px;
+  aspect-ratio: var(--map-ar);
+  width: min(100%, calc(var(--map-max-h) * var(--map-ar)));
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 0;
+  padding: 0;
+  transition: aspect-ratio .55s cubic-bezier(.2,.8,.2,1), width .55s cubic-bezier(.2,.8,.2,1);
+}
+.map-frame::before{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse 55% 45% at 18% 70%, rgba(60,90,110,.12), transparent 70%),
+    radial-gradient(ellipse 50% 40% at 78% 30%, rgba(201,168,106,.06), transparent 65%);
 }
 .map-frame::after{
   content:"";position:absolute;inset:0;pointer-events:none;z-index:1;
-  background:radial-gradient(ellipse 70% 60% at 50% 45%, transparent 40%, rgba(14,13,11,.55) 100%);
+  background:
+    linear-gradient(180deg, rgba(242,235,224,.04), transparent 18%),
+    radial-gradient(ellipse 75% 65% at 50% 48%, transparent 42%, rgba(10,9,8,.58) 100%);
+  border-radius: inherit;
 }
 #world-map{
+  position:relative;z-index:0;
   width:100%;
   height:100%;
   display:block;
   min-height:0;
+  /* meet = never stretch; letterbox inside the framed aspect box */
   transition: viewBox .55s cubic-bezier(.2,.8,.2,1);
 }
 #world-map .countries path,
 #world-map .countries circle{
-  fill:#2a2620;stroke:#0e0d0b;stroke-width:.45;
-  transition:fill .35s, stroke .35s, filter .35s, opacity .35s;
+  fill:#2c2822;stroke:#12100d;stroke-width:.4;
+  transition:fill .35s, stroke .35s, filter .35s, opacity .35s, transform .35s;
   cursor:default;
 }
 #world-map .countries path.has-trip,
@@ -329,48 +354,59 @@ body::before{
 }
 #world-map .countries path.visited,
 #world-map .countries circle.visited{
-  fill:#c9a86a;stroke:rgba(242,235,224,.35);stroke-width:.6;
-  filter:drop-shadow(0 0 2px rgba(201,168,106,.35));
+  fill:#d4b57a;stroke:rgba(242,235,224,.4);stroke-width:.55;
+  filter:drop-shadow(0 0 2.4px rgba(201,168,106,.4));
 }
 #world-map .countries path.work,
 #world-map .countries circle.work{
-  fill:#6e6558;stroke:rgba(242,235,224,.2);
+  fill:#7a7164;stroke:rgba(242,235,224,.22);
 }
 #world-map .countries path.planned,
 #world-map .countries circle.planned{
-  fill:transparent;stroke:var(--seal);stroke-width:1.2;
+  fill:transparent;stroke:var(--seal);stroke-width:1.15;
   stroke-dasharray:3 2;opacity:.95;
 }
 #world-map .countries path.has-trip:hover,
 #world-map .countries circle.has-trip:hover{
-  filter:brightness(1.18) drop-shadow(0 0 6px rgba(201,168,106,.45));
+  filter:brightness(1.2) drop-shadow(0 0 8px rgba(201,168,106,.5));
+}
+#world-map .countries path.has-trip:focus-visible,
+#world-map .countries circle.has-trip:focus-visible{
+  outline:none;
+  filter:brightness(1.22) drop-shadow(0 0 10px rgba(232,201,138,.55));
 }
 #world-map .countries path.active,
 #world-map .countries circle.active{
-  fill:#e8c98a;stroke:#f2ebe0;stroke-width:.9;
+  fill:#e8c98a;stroke:#f2ebe0;stroke-width:.85;
 }
 #world-map .countries circle.visited{stroke-width:0}
 .map-hint{
-  position:absolute;left:18px;bottom:14px;z-index:2;
+  position:absolute;left:20px;bottom:16px;z-index:2;
   font-size:11px;letter-spacing:.18em;color:var(--muted);
   pointer-events:none;
+  text-shadow:0 1px 8px rgba(0,0,0,.65);
 }
 .map-back{
-  position:absolute;top:14px;left:14px;z-index:3;
+  position:absolute;top:16px;left:16px;z-index:3;
   font-family:"Noto Serif SC",serif;font-size:12px;letter-spacing:.16em;
-  padding:8px 14px;border:1px solid var(--line);background:rgba(14,13,11,.75);
-  color:var(--ink);cursor:pointer;backdrop-filter:blur(8px);
+  padding:9px 15px;border:1px solid rgba(201,168,106,.28);
+  background:rgba(14,13,11,.78);
+  color:var(--ink);cursor:pointer;backdrop-filter:blur(10px);
+  border-radius:999px;
   display:none;
 }
 .map-back:hover{border-color:var(--gold);color:var(--gold)}
 .country-panel{
   max-width:1280px;margin:18px auto 0;padding:0 20px;
-  display:none;
+  display:none;width:100%;
 }
 .country-panel.open{display:block}
 .country-panel .panel-card{
   background:linear-gradient(165deg,#1f1c16,#15130f);
-  border:1px solid var(--line);padding:22px 22px 8px;
+  border:1px solid rgba(201,168,106,.18);
+  border-radius:14px;
+  padding:22px 22px 8px;
+  box-shadow:0 18px 50px rgba(0,0,0,.35);
 }
 .country-panel .ch{
   display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;
@@ -385,6 +421,7 @@ body::before{
 .place-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding-bottom:14px}
 .place-item{
   padding:14px 14px 12px;border:1px solid var(--line);background:rgba(0,0,0,.2);
+  border-radius:10px;
   display:flex;flex-direction:column;gap:4px;min-height:96px;
 }
 .place-item .when{font-size:11px;color:var(--muted);letter-spacing:.1em;font-variant-numeric:tabular-nums}
@@ -400,35 +437,39 @@ body::before{
 #world-map #admin1-layer{display:none}
 #world-map.admin-mode #admin1-layer{display:block}
 #admin1-layer path{
-  fill:#2a2620;stroke:#0e0d0b;stroke-width:.32;
+  fill:#2c2822;stroke:#12100d;stroke-width:.3;
   transition:fill .3s, stroke .3s, filter .3s, opacity .3s;
   cursor:default;
 }
 #admin1-layer path.has-trip{cursor:pointer}
 #admin1-layer path.visited{
-  fill:#c9a86a;stroke:rgba(242,235,224,.42);stroke-width:.5;
-  filter:drop-shadow(0 0 1.6px rgba(201,168,106,.32));
+  fill:#d4b57a;stroke:rgba(242,235,224,.45);stroke-width:.48;
+  filter:drop-shadow(0 0 1.8px rgba(201,168,106,.35));
 }
-#admin1-layer path.work{fill:#6e6558;stroke:rgba(242,235,224,.22)}
+#admin1-layer path.work{fill:#7a7164;stroke:rgba(242,235,224,.22)}
 #admin1-layer path.planned{
   fill:transparent;stroke:var(--seal);stroke-width:.95;stroke-dasharray:3 2;
 }
 #admin1-layer path.has-trip:hover{
-  filter:brightness(1.14) drop-shadow(0 0 5px rgba(201,168,106,.4));
+  filter:brightness(1.16) drop-shadow(0 0 6px rgba(201,168,106,.45));
+}
+#admin1-layer path.has-trip:focus-visible{
+  outline:none;
+  filter:brightness(1.2) drop-shadow(0 0 8px rgba(232,201,138,.5));
 }
 #admin1-layer path.active{
-  fill:#e8c98a;stroke:#f2ebe0;stroke-width:.75;
+  fill:#e8c98a;stroke:#f2ebe0;stroke-width:.72;
 }
 #admin1-labels{pointer-events:none}
 #admin1-labels text{
-  fill:rgba(242,235,224,.92);
+  fill:rgba(242,235,224,.94);
   font-family:"Cormorant Garamond","Noto Serif SC",serif;
   font-size:3.35px;
   letter-spacing:.08em;
   text-anchor:middle;
   dominant-baseline:central;
   paint-order:stroke fill;
-  stroke:rgba(14,13,11,.72);
+  stroke:rgba(14,13,11,.78);
   stroke-width:.55px;
   stroke-linejoin:round;
   opacity:.92;
@@ -448,7 +489,7 @@ body::before{
 .admin-chips button{
   font-family:"Noto Serif SC",serif;font-size:12px;letter-spacing:.12em;
   padding:6px 12px;border:1px solid var(--line);background:rgba(0,0,0,.25);
-  color:var(--muted);cursor:pointer;
+  color:var(--muted);cursor:pointer;border-radius:999px;
 }
 .admin-chips button.on,.admin-chips button:hover{border-color:var(--gold);color:var(--gold)}
 .admin-chips button.visited{color:var(--gold)}
@@ -456,8 +497,14 @@ body::before{
 .admin-chips button.planned{color:var(--seal)}
 
 @media (max-width:700px){
-  .map-frame{aspect-ratio: var(--map-ar, 2 / 1)}
-  .map-hint{font-size:10px;letter-spacing:.1em}
+  .map-stage{padding:4px 12px 12px}
+  .map-frame{
+    --map-max-h: min(52vh, 420px);
+    border-radius:12px;
+    /* keep natural AR; shrink width so height stays readable (not a ~180px ribbon) */
+    width: min(100%, calc(var(--map-max-h) * var(--map-ar)));
+  }
+  .map-hint{font-size:10px;letter-spacing:.1em;left:14px;bottom:12px}
   #admin1-labels text{font-size:3.8px}
 }
 
@@ -884,6 +931,8 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 <path id="c-south-africa" data-name="South Africa" d="M587.56,331.27L587.02,331.67L585.84,333.08L585.06,334.51L583.49,336.50L580.35,339.37L578.39,341.03L576.29,342.30L573.39,343.37L571.97,343.52L571.61,344.29L569.92,343.88L568.55,344.41L565.54,343.87L563.86,344.21L562.71,344.07L559.84,345.16L557.47,345.60L555.75,346.65L554.49,346.72L553.31,345.73L552.38,345.68L551.18,344.44L551.05,344.82L550.68,344.08L550.69,342.45L549.79,340.59L550.69,340.08L550.62,337.95L548.80,335.35L547.40,333.00L547.40,332.99L545.40,329.38L546.73,328.01L547.83,328.77L548.30,329.95L549.54,330.16L551.29,330.68L552.78,330.48L555.26,329.06L555.27,318.80L556.02,319.22L557.66,321.86L557.41,323.55L558.03,324.52L560.02,324.24L561.41,323.00L562.72,322.17L563.40,320.83L564.76,320.19L565.93,320.53L567.25,321.31L569.51,321.44L571.29,320.80L571.57,319.93L572.06,318.60L573.57,318.38L574.41,317.34L575.33,315.48L577.83,313.41L581.76,311.36L582.89,311.40L584.23,311.87L585.17,311.53L586.64,311.81L587.97,315.72L588.70,317.69L588.20,320.79L588.44,321.79L587.04,321.28L586.23,321.48L585.97,322.29L585.21,323.33L585.24,324.29L586.90,325.79L588.52,325.49L589.09,324.26L591.19,324.28L590.50,326.31L590.17,328.61L589.45,329.87L587.56,331.27ZM580.50,330.43L579.28,329.58L577.98,330.14L576.48,331.23L575.00,332.99L577.08,335.13L578.08,334.85L578.59,333.96L580.13,333.53L580.61,332.62L581.46,331.27L580.50,330.43Z"/>
 <path id="c-zambia" data-name="Zambia" d="M591.00,275.64L592.31,276.88L593.02,279.24L592.54,279.99L591.98,282.24L592.52,284.54L591.64,285.51L590.80,288.09L592.26,288.81L583.83,291.10L584.10,293.08L581.99,293.46L580.41,294.56L580.07,295.53L579.08,295.75L576.66,298.03L575.12,299.83L574.19,299.89L573.28,299.57L570.18,299.27L569.68,299.06L569.66,298.83L568.56,298.20L566.76,298.04L564.49,298.68L562.67,296.94L560.80,294.67L560.93,285.83L566.71,285.86L566.47,284.91L566.89,283.86L566.40,282.56L566.72,281.21L566.42,280.35L567.38,280.42L567.54,281.29L568.84,281.22L570.61,281.47L571.53,282.74L573.76,283.12L575.46,282.25L576.08,283.70L578.21,284.09L579.23,285.27L580.37,286.80L582.50,286.83L582.27,283.83L581.50,284.34L579.56,283.25L578.81,282.76L579.16,279.97L579.65,276.68L579.03,275.46L579.82,273.68L580.56,273.35L584.29,272.88L585.39,273.17L586.55,273.87L587.66,274.34L589.42,274.81L591.00,275.64Z"/>
 <path id="c-zimbabwe" data-name="Zimbabwe" d="M586.64,311.81L585.17,311.53L584.23,311.87L582.89,311.40L581.76,311.36L579.99,310.11L577.84,309.68L577.02,307.92L577.01,306.94L575.82,306.64L572.68,303.59L571.81,301.98L571.25,301.49L570.18,299.27L573.28,299.57L574.19,299.89L575.12,299.83L576.66,298.03L579.08,295.75L580.07,295.53L580.41,294.56L581.99,293.46L584.10,293.08L584.27,294.11L586.59,294.06L587.88,294.64L588.48,295.33L589.80,295.53L591.24,296.43L591.25,299.94L590.71,301.87L590.59,303.94L591.04,304.77L590.72,306.40L590.30,306.65L589.57,308.66L586.64,311.81Z"/>
+<circle id="c-hongkong" data-name="Hong Kong" data-key="hongkong" cx="821.6" cy="186.2" r="3.2"/>
+<circle id="c-macao" data-name="Macao" data-key="macao" cx="819.4" cy="187.6" r="2.6"/>
 <circle id="c-singapore" data-name="Singapore" data-key="singapore" cx="788.39" cy="246.24" r="4"/>
 </g>
 <g id="admin1-layer" class="admin1" fill="#2a2620" stroke="#0e0d0b" stroke-width="0.35"></g>
@@ -1419,18 +1468,269 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 <section class="panel" id="books">
   <div class="panel-head">
     <h2>书籍封面</h2>
-    <span class="meta">待导入 · 豆瓣 / 网盘</span>
+    <span class="meta">63 · 左右滑动</span>
   </div>
-  <p class="books-note">豆瓣书架 · OneDrive · 百度网盘</p>
-  <div class="poster-cinema is-books" data-auto="off" id="books-cinema">
+  <p class="books-note">OneDrive · 百度网盘 · 豆瓣候选 · 实封面 47 / 占位 16</p>
+  <div class="poster-cinema is-books" data-auto="on" id="books-cinema">
     <div class="poster-cinema-fade left" aria-hidden="true"></div>
     <div class="poster-cinema-fade right" aria-hidden="true"></div>
     <div class="poster-rail" id="books-rail" tabindex="0" role="region" aria-label="书籍封面，可左右滚动">
       <div class="poster-track" id="books-track">
-        <div class="rail-empty">封面墙待导入 — 稍后从豆瓣 / 网盘填入</div>
+      <figure class="poster book size-tall" style="--i:0" data-source="onedrive">
+        <img src="book-covers/斗破苍穹.jpg" alt="斗破苍穹 — 天蚕土豆" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">斗破苍穹</span><span class="py">天蚕土豆</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:1" data-source="onedrive">
+        <img src="book-covers/斗罗大陆.jpg" alt="斗罗大陆 — 唐家三少" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">斗罗大陆</span><span class="py">唐家三少</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:2" data-source="onedrive">
+        <img src="book-covers/诛仙.jpg" alt="诛仙 — 萧鼎" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">诛仙</span><span class="py">萧鼎</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:3" data-source="onedrive">
+        <img src="book-covers/吞噬星空.jpg" alt="吞噬星空 — 我吃西红柿" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">吞噬星空</span><span class="py">我吃西红柿</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:4" data-source="onedrive">
+        <img src="book-covers/武动乾坤.jpg" alt="武动乾坤 — 天蚕土豆" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">武动乾坤</span><span class="py">天蚕土豆</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:5" data-source="onedrive">
+        <img src="book-covers/兽王.jpg" alt="兽王 — 雨魔" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">兽王</span><span class="py">雨魔</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:6" data-source="onedrive">
+        <img src="book-covers/驭兽斋.jpg" alt="驭兽斋 — 雨魔" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">驭兽斋</span><span class="py">雨魔</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:7" data-source="onedrive">
+        <img src="book-covers/兽神.jpg" alt="兽神 — 雨魔" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">兽神</span><span class="py">雨魔</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:8" data-source="onedrive">
+        <img src="book-covers/网游之再生勇士.jpg" alt="网游之再生勇士" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">网游之再生勇士</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:9" data-source="onedrive">
+        <img src="book-covers/黑道特种兵.jpg" alt="黑道特种兵" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">黑道特种兵</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:10" data-source="onedrive">
+        <img src="book-covers/聪明的投资者.jpg" alt="聪明的投资者 — 本杰明·格雷厄姆" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">聪明的投资者</span><span class="py">本杰明·格雷厄姆</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:11" data-source="onedrive">
+        <img src="book-covers/投资最重要的事.jpg" alt="投资最重要的事 — 霍华德·马克斯" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">投资最重要的事</span><span class="py">霍华德·马克斯</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:12" data-source="onedrive">
+        <img src="book-covers/周期.jpg" alt="周期 — 霍华德·马克斯" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">周期</span><span class="py">霍华德·马克斯</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:13" data-source="onedrive">
+        <img src="book-covers/股票大作手回忆录.jpg" alt="股票大作手回忆录 — 埃德温·勒菲弗" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">股票大作手回忆录</span><span class="py">埃德温·勒菲弗</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:14" data-source="onedrive">
+        <img src="book-covers/巴菲特之道.jpg" alt="巴菲特之道" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">巴菲特之道</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:15" data-source="onedrive">
+        <img src="book-covers/巴菲特投资策略全书.jpg" alt="巴菲特投资策略全书" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">巴菲特投资策略全书</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:16" data-source="onedrive">
+        <img src="book-covers/探索智慧从达尔文到芒格.jpg" alt="探索智慧：从达尔文到芒格" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">探索智慧：从达尔文到芒格</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:17" data-source="onedrive">
+        <img src="book-covers/段永平商业问答录.jpg" alt="段永平商业问答录 — 段永平" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">段永平商业问答录</span><span class="py">段永平</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:18" data-source="onedrive">
+        <img src="book-covers/段永平投资问答录商业逻辑篇.jpg" alt="段永平投资问答录（商业逻辑篇） — 段永平" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">段永平投资问答录（商业逻辑篇）</span><span class="py">段永平</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:19" data-source="onedrive">
+        <img src="book-covers/张坤投资思想文集.jpg" alt="张坤投资思想文集 — 张坤" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">张坤投资思想文集</span><span class="py">张坤</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:20" data-source="onedrive">
+        <img src="book-covers/邱国鹭文集.jpg" alt="邱国鹭文集 — 邱国鹭" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">邱国鹭文集</span><span class="py">邱国鹭</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:21" data-source="onedrive">
+        <img src="book-covers/陈光明文集.jpg" alt="陈光明文集 — 陈光明" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">陈光明文集</span><span class="py">陈光明</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:22" data-source="onedrive">
+        <img src="book-covers/高瓴资本张磊文集.jpg" alt="高瓴资本张磊文集 — 张磊" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">高瓴资本张磊文集</span><span class="py">张磊</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:23" data-source="onedrive">
+        <img src="book-covers/李国飞哲学与投资笔记.jpg" alt="李国飞哲学与投资笔记 — 李国飞" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">李国飞哲学与投资笔记</span><span class="py">李国飞</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:24" data-source="onedrive">
+        <img src="book-covers/valuation-measuring-and-managing-the-value-of-companies.jpg" alt="Valuation: Measuring and Managing the Value of Companies — Tim Koller / Marc Goedhart / David Wessels" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Valuation: Measuring and Managing the Value of Companies</span><span class="py">Tim Koller / Marc Goedhart / David Wessels</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:25" data-source="onedrive">
+        <img src="book-covers/investment-valuation.jpg" alt="Investment Valuation — Aswath Damodaran" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Investment Valuation</span><span class="py">Aswath Damodaran</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:26" data-source="onedrive">
+        <img src="book-covers/vault-career-guide-to-investment-banking.jpg" alt="Vault Career Guide to Investment Banking — Vault" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Vault Career Guide to Investment Banking</span><span class="py">Vault</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:27" data-source="onedrive">
+        <img src="book-covers/investment-banking-valuation-lbos-ma-and-ipos.jpg" alt="Investment Banking: Valuation, LBOs, M&amp;A, and IPOs — Joshua Rosenbaum / Joshua Pearl" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Investment Banking: Valuation, LBOs, M&amp;A, and IPOs</span><span class="py">Joshua Rosenbaum / Joshua Pearl</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:28" data-source="onedrive">
+        <img src="book-covers/投行职业进阶指南.jpg" alt="投行职业进阶指南" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">投行职业进阶指南</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:29" data-source="onedrive">
+        <img src="book-covers/投行小兵企业上市解决之道.jpg" alt="投行小兵——企业上市解决之道 — 投行小兵" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">投行小兵——企业上市解决之道</span><span class="py">投行小兵</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:30" data-source="onedrive">
+        <img src="book-covers/a股壳交易红宝书暨收购上市公司操作指南.jpg" alt="A股壳交易红宝书暨收购上市公司操作指南" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">A股壳交易红宝书暨收购上市公司操作指南</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:31" data-source="onedrive">
+        <img src="book-covers/advances-in-financial-machine-learning.jpg" alt="Advances in Financial Machine Learning — Marcos López de Prado" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Advances in Financial Machine Learning</span><span class="py">Marcos López de Prado</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:32" data-source="onedrive">
+        <img src="book-covers/machine-learning-for-asset-managers.jpg" alt="Machine Learning for Asset Managers — Marcos López de Prado" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Machine Learning for Asset Managers</span><span class="py">Marcos López de Prado</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:33" data-source="onedrive">
+        <img src="book-covers/finding-alphas.jpg" alt="Finding Alphas" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Finding Alphas</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:34" data-source="onedrive">
+        <img src="book-covers/systematic-trading.jpg" alt="Systematic Trading — Robert Carver" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Systematic Trading</span><span class="py">Robert Carver</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:35" data-source="onedrive">
+        <img src="book-covers/量价分析量价分析创始人威科夫的盘口解读方法.jpg" alt="量价分析：量价分析创始人威科夫的盘口解读方法 — 安娜·库林" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">量价分析：量价分析创始人威科夫的盘口解读方法</span><span class="py">安娜·库林</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:36" data-source="onedrive">
+        <img src="book-covers/business-statistics.jpg" alt="Business Statistics" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Business Statistics</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:37" data-source="onedrive">
+        <img src="book-covers/fundamentals-of-management.jpg" alt="Fundamentals of Management" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Fundamentals of Management</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:38" data-source="onedrive">
+        <img src="book-covers/microeconomics-canada-in-the-global-environment.jpg" alt="Microeconomics: Canada in the Global Environment" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Microeconomics: Canada in the Global Environment</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:39" data-source="baidu-netdisk">
+        <img src="book-covers/置身事内中国政府与经济发展.jpg" alt="置身事内：中国政府与经济发展 — 兰小欢" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">置身事内：中国政府与经济发展</span><span class="py">兰小欢</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:40" data-source="baidu-netdisk">
+        <img src="book-covers/财富捷径直达财务自由的路线图.jpg" alt="财富捷径：直达财务自由的路线图 — 硅谷居士" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">财富捷径：直达财务自由的路线图</span><span class="py">硅谷居士</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:41" data-source="baidu-netdisk">
+        <img src="book-covers/人生财富靠康波.jpg" alt="人生财富靠康波 — 周金涛" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">人生财富靠康波</span><span class="py">周金涛</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:42" data-source="baidu-netdisk">
+        <img src="book-covers/周金涛理论大集.jpg" alt="周金涛理论大集 — 周金涛" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">周金涛理论大集</span><span class="py">周金涛</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:43" data-source="baidu-netdisk">
+        <img src="book-covers/估值的艺术110个解读案例.jpg" alt="估值的艺术：110个解读案例" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">估值的艺术：110个解读案例</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:44" data-source="baidu-netdisk">
+        <img src="book-covers/options-futures-and-other-derivatives.jpg" alt="Options, Futures, and Other Derivatives — John C. Hull" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Options, Futures, and Other Derivatives</span><span class="py">John C. Hull</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:45" data-source="baidu-netdisk">
+        <img src="book-covers/小会计成长记像喝咖啡一样轻松学财会.jpg" alt="小会计成长记：像喝咖啡一样轻松学财会" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">小会计成长记：像喝咖啡一样轻松学财会</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:46" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/七十年代.jpg" alt="七十年代" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">七十年代</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:47" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/苏东坡传.jpg" alt="苏东坡传 — 林语堂" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">苏东坡传</span><span class="py">林语堂</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:48" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/欲乐园.jpg" alt="欲乐园" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">欲乐园</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:49" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/心美一切皆美.jpg" alt="心美，一切皆美" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">心美，一切皆美</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:50" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/数学与人类思维.jpg" alt="数学与人类思维" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">数学与人类思维</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:51" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/袁世凯传.jpg" alt="袁世凯传" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">袁世凯传</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:52" data-source="douban-candidate-unconfirmed">
+        <img src="book-covers/中国最后一个大儒.jpg" alt="中国最后一个大儒" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">中国最后一个大儒</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:53" data-source="baidu-netdisk">
+        <img src="book-covers/会计女生成长丛书1跟妈妈学会计.jpg" alt="会计女生成长丛书1：跟妈妈学会计" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">会计女生成长丛书1：跟妈妈学会计</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:54" data-source="baidu-netdisk">
+        <img src="book-covers/会计女生成长丛书2在广告公司当会计.jpg" alt="会计女生成长丛书2：在广告公司当会计" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">会计女生成长丛书2：在广告公司当会计</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:55" data-source="baidu-netdisk">
+        <img src="book-covers/会计女生成长丛书3在商店当会计.jpg" alt="会计女生成长丛书3：在商店当会计" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">会计女生成长丛书3：在商店当会计</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:56" data-source="baidu-netdisk">
+        <img src="book-covers/会计女生成长丛书4在建筑公司当会计.jpg" alt="会计女生成长丛书4：在建筑公司当会计" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">会计女生成长丛书4：在建筑公司当会计</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:57" data-source="baidu-netdisk">
+        <img src="book-covers/会计女生成长丛书5在工厂当会计.jpg" alt="会计女生成长丛书5：在工厂当会计" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">会计女生成长丛书5：在工厂当会计</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:58" data-source="baidu-netdisk">
+        <img src="book-covers/一本书学会做数据分析成功商务人士案头必备.jpg" alt="一本书学会做数据分析：成功商务人士案头必备" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">一本书学会做数据分析：成功商务人士案头必备</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:59" data-source="baidu-netdisk">
+        <img src="book-covers/一本书读懂中国税.jpg" alt="一本书读懂中国税" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">一本书读懂中国税</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-tall" style="--i:60" data-source="baidu-netdisk">
+        <img src="book-covers/三天学会纳税你的第一本纳税书.jpg" alt="三天学会纳税(你的第一本纳税书)" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">三天学会纳税(你的第一本纳税书)</span><span class="py">—</span></figcaption>
+      </figure>
+      <figure class="poster book size-mid" style="--i:61" data-source="onedrive">
+        <img src="book-covers/risk-management-and-financial-institutions.jpg" alt="Risk Management and Financial Institutions — John C. Hull" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Risk Management and Financial Institutions</span><span class="py">John C. Hull</span></figcaption>
+      </figure>
+      <figure class="poster book size-wide" style="--i:62" data-source="onedrive">
+        <img src="book-covers/breaking-into-wall-street-the-400-most-common-interview-questions.jpg" alt="Breaking Into Wall Street: The 400 Most Common Interview Questions" loading="lazy" decoding="async"/>
+        <figcaption><span class="pt">Breaking Into Wall Street: The 400 Most Common Interview Questions</span><span class="py">—</span></figcaption>
+      </figure>
       </div>
     </div>
-    <p class="cinema-hint">封面导入后即可左右浏览</p>
+    <p class="cinema-hint">拖拽 · 滚轮 · 左右浏览</p>
   </div>
 </section>
 <section class="close">
@@ -1447,7 +1747,7 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 <script src="assets/admin1/japan.js"></script>
 <script>
 (function(){
-  var DATA = {"china": {"zh": "中国", "status": "visited", "trips": [{"place": "西安", "country": "中国", "region": "陕西", "date": "2019-02", "year": 2019, "status": "visited", "note": "酒店预订单与机票截图；约2019年2月"}, {"place": "稻城亚丁", "country": "中国", "region": "四川", "date": "2021-05", "year": 2021, "status": "visited", "note": "2021年五一"}, {"place": "重庆", "country": "中国", "region": "重庆", "date": "2022-05", "year": 2022, "status": "visited", "note": "机票 LIU CHENGZHI MR 19MAY HKG（约2022年5月）"}, {"place": "丽江 / 玉龙雪山", "country": "中国", "region": "云南", "date": "2022-06", "year": 2022, "status": "visited", "note": "丽江旅游规划方案 202206；日照金山等"}, {"place": "德化", "country": "中国", "region": "福建", "date": "2022-07", "year": 2022, "status": "visited", "note": "大量照片；文件夹约2022年7月建"}, {"place": "梅里雪山", "country": "中国", "region": "云南", "date": "2023-04-29", "year": 2023, "status": "visited", "note": "2023年五一攻略总结；视频 20230429–0430"}, {"place": "青甘环线（可可西里·三江源）", "country": "中国", "region": "青海 / 甘肃", "date": "2023-09-29", "year": 2023, "status": "visited", "note": "合同：9月29日–10月3日 5天4晚；无人机视频"}, {"place": "冷噶错", "country": "中国", "region": "四川", "date": "2024-10", "year": 2024, "status": "visited", "note": "2024年国庆；包车合同 + 回忆记录（大量照片）"}, {"place": "绍兴", "country": "中国", "region": "浙江", "date": "2024-12", "year": 2024, "status": "work", "note": "出差报销"}, {"place": "孔雀山", "country": "中国", "region": "云南", "date": "2025-04", "year": 2025, "status": "visited", "note": "微信图片文件名 20250407；Nikon 照片"}, {"place": "腾冲", "country": "中国", "region": "云南", "date": "2025-04", "year": 2025, "status": "visited", "note": "文件夹约2025-04；117+ 照片"}, {"place": "崇左", "country": "中国", "region": "广西", "date": "2025-06", "year": 2025, "status": "visited", "note": "CCD 照片 EXIF 约 2025-05–06"}, {"place": "东北 / 上海 / 青岛", "country": "中国", "region": "多城", "date": "2025-07", "year": 2025, "status": "work", "note": "出差报销"}, {"place": "西安（出差）", "country": "中国", "region": "陕西", "date": "2025-08", "year": 2025, "status": "work", "note": "出差报销；与 2019 休闲西安区分"}, {"place": "沈阳 → 西安 → 郑州", "country": "中国", "region": "多城", "date": "2025-10", "year": 2025, "status": "work", "note": "出差报销"}, {"place": "新疆", "country": "中国", "region": "新疆", "date": "2025-11", "year": 2025, "status": "work", "note": "出差报销"}, {"place": "衡阳 / 汕头", "country": "中国", "region": "湖南 / 广东", "date": "2026-03", "year": 2026, "status": "work", "note": "出差报销"}, {"place": "深圳 ↔ 郑州（多次）", "country": "中国", "region": "广东 · 河南", "date": "2026-04", "year": 2026, "status": "work", "note": "HU7733 SZX–CGO：04-14 / 04-28 / 05-25；覆盖说明：仅 2026 切片"}, {"place": "重庆 · 温州 · 郑州", "country": "中国", "region": "多城", "date": "2026-06-16", "year": 2026, "status": "work", "note": "06-16 PN6283 CKG–WNZ；06-17 HU7443 WNZ–CGO"}, {"place": "徐州 · 沈阳 · 太原", "country": "中国", "region": "多城", "date": "2026-07-05", "year": 2026, "status": "work", "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX"}, {"place": "昆明 · 大理", "country": "中国", "region": "云南", "date": "2026-07-15", "year": 2026, "status": "work", "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）"}, {"place": "呼和浩特", "country": "中国", "region": "内蒙古", "date": "2026-08-23", "year": 2026, "status": "work", "note": "08-23 HU7731 SZX–HET；08-25 Y87528 HET–SZX"}, {"place": "银川 · 长春 · 郑州", "country": "中国", "region": "多城", "date": "2026-09-01", "year": 2026, "status": "work", "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO"}, {"place": "南京 · 海口 · 郑州", "country": "中国", "region": "多城", "date": "2026-09-25", "year": 2026, "status": "work", "note": "09-13 NKG–SZX；09-25 NKG–HAK；09-27 HAK–SZX；09-28 SZX–CGO"}, {"place": "北京 · 南京（登机牌）", "country": "中国", "region": "北京 · 江苏", "date": "2026-10-26", "year": 2026, "status": "work", "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；与无锡酒店行程互补"}, {"place": "无锡 · 南京", "country": "中国", "region": "江苏", "date": "2026-10-27", "year": 2026, "status": "visited", "note": "无锡绿发万豪 10.27–28；Fairfield Nanjing Yuhuatai 10.28–30；同日北京→香港 CX337 过境"}]}, "malaysia": {"zh": "马来西亚", "status": "visited", "trips": [{"place": "槟城", "country": "马来西亚", "region": "Penang", "date": "2022", "year": 2022, "status": "visited", "note": "Airbnb trip overview；与马来西亚行程同期"}, {"place": "吉隆坡", "country": "马来西亚", "region": "Kuala Lumpur", "date": "2022-12", "year": 2022, "status": "visited", "note": "eVisa 2022-11；Airbnb/机票；另有抵港文件 20221221（XMUM 相关）"}]}, "singapore": {"zh": "新加坡", "status": "visited", "trips": [{"place": "新加坡", "country": "新加坡", "region": "", "date": "2023-01", "year": 2023, "status": "visited", "note": "签证与机票行程单（约2022末–2023初）；含 LIU Chengzhi 签证 PDF"}]}, "taiwan": {"zh": "中国台湾", "status": "planned", "trips": [{"place": "台湾（签证准备）", "country": "中国台湾", "region": "", "date": "2024-05", "year": 2024, "status": "planned", "note": "仅签证须知 PDF；是否成行不详"}]}, "japan": {"zh": "日本", "status": "visited", "trips": [{"place": "九州 / 福冈", "country": "日本", "region": "Kyushu / Fukuoka", "date": "2024-07", "year": 2024, "status": "visited", "note": "Visa 202404；JR-KIUSHU Ticket 20240721；机票 20JUL HKG；LiVEMAX Fukuoka Tenjin West；行程规划 ppt/pdf 20240414"}, {"place": "日本（二次，签证材料）", "country": "日本", "region": "", "date": "2024-11", "year": 2024, "status": "planned", "note": "日签申请 202411；是否成行需再确认"}, {"place": "日本（三次，签证材料）", "country": "日本", "region": "", "date": "2026-11", "year": 2026, "status": "planned", "note": "26.11日本visa；计划中"}]}, "thailand": {"zh": "泰国", "status": "visited", "trips": [{"place": "泰国", "country": "泰国", "region": "", "date": "2025-05", "year": 2025, "status": "visited", "note": "PDF 20250503；CCD 大量照片"}]}, "vietnam": {"zh": "越南", "status": "visited", "trips": [{"place": "越南", "country": "越南", "region": "", "date": "2025-05", "year": 2025, "status": "visited", "note": "eVisa E250527…（约2025-05末）"}]}, "spain": {"zh": "西班牙", "status": "planned", "trips": [{"place": "西班牙", "country": "西班牙", "region": "", "date": "2025-06", "year": 2025, "status": "planned", "note": "邀请函整理 / 在职证明 / PDF 20250604；偏签证材料，成行细节待补"}]}, "kazakhstan": {"zh": "哈萨克斯坦", "status": "visited", "trips": [{"place": "阿拉木图", "country": "哈萨克斯坦", "region": "Almaty", "date": "2025-09", "year": 2025, "status": "visited", "note": "KK&Oranger Trip - 阿拉木图.xlsx；CCD 照片"}]}, "egypt": {"zh": "埃及", "status": "visited", "trips": [{"place": "埃及", "country": "埃及", "region": "", "date": "2025-12-30", "year": 2025, "status": "visited", "note": "照片 EXIF takenDateTime 2025-12-30"}]}, "usa": {"zh": "美国", "status": "visited", "trips": [{"place": "旧金山", "country": "美国", "region": "California", "date": "2026-09", "year": 2026, "status": "visited", "note": "E-itinerary.pdf；EVUS Enrolled 20250320"}, {"place": "美加（Project Nova）", "country": "美国 / 加拿大", "region": "CHI·SEA·MSP·ATL·ELP·YYZ", "date": "2026-10-14", "year": 2026, "status": "visited", "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"}, {"place": "芝加哥 → 费城 → 纽约（东海岸计划）", "country": "美国", "region": "East Coast", "date": "2026-12", "year": 2026, "status": "planned", "note": "草案：12/7 ORD → 12/9 PHL → NYC → 12/14 EWR 回港；待订票"}]}, "canada": {"zh": "加拿大", "status": "visited", "trips": [{"place": "美加（Project Nova）", "country": "美国 / 加拿大", "region": "CHI·SEA·MSP·ATL·ELP·YYZ", "date": "2026-10-14", "year": 2026, "status": "visited", "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"}]}};
+  var DATA = {"china": {"zh": "中国", "status": "visited", "trips": [{"place": "西安", "country": "中国", "region": "陕西", "date": "2019-02", "year": 2019, "status": "visited", "note": "酒店预订单与机票截图；约2019年2月"}, {"place": "稻城亚丁", "country": "中国", "region": "四川", "date": "2021-05", "year": 2021, "status": "visited", "note": "2021年五一"}, {"place": "重庆", "country": "中国", "region": "重庆", "date": "2022-05", "year": 2022, "status": "visited", "note": "机票 LIU CHENGZHI MR 19MAY HKG（约2022年5月）"}, {"place": "丽江 / 玉龙雪山", "country": "中国", "region": "云南", "date": "2022-06", "year": 2022, "status": "visited", "note": "丽江旅游规划方案 202206；日照金山等"}, {"place": "德化", "country": "中国", "region": "福建", "date": "2022-07", "year": 2022, "status": "visited", "note": "大量照片；文件夹约2022年7月建"}, {"place": "梅里雪山", "country": "中国", "region": "云南", "date": "2023-04-29", "year": 2023, "status": "visited", "note": "2023年五一攻略总结；视频 20230429–0430"}, {"place": "青甘环线（可可西里·三江源）", "country": "中国", "region": "青海 / 甘肃", "date": "2023-09-29", "year": 2023, "status": "visited", "note": "合同：9月29日–10月3日 5天4晚；无人机视频"}, {"place": "冷噶错", "country": "中国", "region": "四川", "date": "2024-10", "year": 2024, "status": "visited", "note": "2024年国庆；包车合同 + 回忆记录（大量照片）"}, {"place": "绍兴", "country": "中国", "region": "浙江", "date": "2024-12", "year": 2024, "status": "work", "note": "出差报销"}, {"place": "孔雀山", "country": "中国", "region": "云南", "date": "2025-04", "year": 2025, "status": "visited", "note": "微信图片文件名 20250407；Nikon 照片"}, {"place": "腾冲", "country": "中国", "region": "云南", "date": "2025-04", "year": 2025, "status": "visited", "note": "文件夹约2025-04；117+ 照片"}, {"place": "崇左", "country": "中国", "region": "广西", "date": "2025-06", "year": 2025, "status": "visited", "note": "CCD 照片 EXIF 约 2025-05–06"}, {"place": "东北 / 上海 / 青岛", "country": "中国", "region": "多城", "date": "2025-07", "year": 2025, "status": "work", "note": "出差报销"}, {"place": "西安（出差）", "country": "中国", "region": "陕西", "date": "2025-08", "year": 2025, "status": "work", "note": "出差报销；与 2019 休闲西安区分"}, {"place": "沈阳 → 西安 → 郑州", "country": "中国", "region": "多城", "date": "2025-10", "year": 2025, "status": "work", "note": "出差报销"}, {"place": "新疆", "country": "中国", "region": "新疆", "date": "2025-11", "year": 2025, "status": "work", "note": "出差报销"}, {"place": "衡阳 / 汕头", "country": "中国", "region": "湖南 / 广东", "date": "2026-03", "year": 2026, "status": "work", "note": "出差报销"}, {"place": "深圳 ↔ 郑州（多次）", "country": "中国", "region": "广东 · 河南", "date": "2026-04", "year": 2026, "status": "work", "note": "HU7733 SZX–CGO：04-14 / 04-28 / 05-25；覆盖说明：仅 2026 切片"}, {"place": "重庆 · 温州 · 郑州", "country": "中国", "region": "多城", "date": "2026-06-16", "year": 2026, "status": "work", "note": "06-16 PN6283 CKG–WNZ；06-17 HU7443 WNZ–CGO"}, {"place": "徐州 · 沈阳 · 太原", "country": "中国", "region": "多城", "date": "2026-07-05", "year": 2026, "status": "work", "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX"}, {"place": "昆明 · 大理", "country": "中国", "region": "云南", "date": "2026-07-15", "year": 2026, "status": "work", "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）"}, {"place": "呼和浩特", "country": "中国", "region": "内蒙古", "date": "2026-08-23", "year": 2026, "status": "work", "note": "08-23 HU7731 SZX–HET；08-25 Y87528 HET–SZX"}, {"place": "银川 · 长春 · 郑州", "country": "中国", "region": "多城", "date": "2026-09-01", "year": 2026, "status": "work", "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO"}, {"place": "南京 · 海口 · 郑州", "country": "中国", "region": "多城", "date": "2026-09-25", "year": 2026, "status": "work", "note": "09-13 NKG–SZX；09-25 NKG–HAK；09-27 HAK–SZX；09-28 SZX–CGO"}, {"place": "北京 · 南京（登机牌）", "country": "中国", "region": "北京 · 江苏", "date": "2026-10-26", "year": 2026, "status": "work", "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；与无锡酒店行程互补"}, {"place": "无锡 · 南京", "country": "中国", "region": "江苏", "date": "2026-10-27", "year": 2026, "status": "visited", "note": "无锡绿发万豪 10.27–28；Fairfield Nanjing Yuhuatai 10.28–30；同日北京→香港 CX337 过境"}, {"place": "香港", "country": "中国", "region": "香港", "date": "2022-05", "year": 2022, "status": "visited", "note": "行程足迹：经港往来 / 过境记录"}, {"place": "澳门", "country": "中国", "region": "澳门", "date": "2022", "year": 2022, "status": "visited", "note": "行程足迹：粤港澳往来"}, {"place": "台湾", "country": "中国", "region": "台湾", "date": "2024-05", "year": 2024, "status": "visited", "note": "用户更正：台湾标为已到访"}]}, "malaysia": {"zh": "马来西亚", "status": "visited", "trips": [{"place": "槟城", "country": "马来西亚", "region": "Penang", "date": "2022", "year": 2022, "status": "visited", "note": "Airbnb trip overview；与马来西亚行程同期"}, {"place": "吉隆坡", "country": "马来西亚", "region": "Kuala Lumpur", "date": "2022-12", "year": 2022, "status": "visited", "note": "eVisa 2022-11；Airbnb/机票；另有抵港文件 20221221（XMUM 相关）"}]}, "singapore": {"zh": "新加坡", "status": "visited", "trips": [{"place": "新加坡", "country": "新加坡", "region": "", "date": "2023-01", "year": 2023, "status": "visited", "note": "签证与机票行程单（约2022末–2023初）；含 LIU Chengzhi 签证 PDF"}]}, "taiwan": {"zh": "中国台湾", "status": "visited", "trips": [{"place": "台湾（签证准备）", "country": "中国台湾", "region": "", "date": "2024-05", "year": 2024, "status": "visited", "note": "仅签证须知 PDF；是否成行不详；用户更正：标为已到访"}]}, "japan": {"zh": "日本", "status": "visited", "trips": [{"place": "九州 / 福冈", "country": "日本", "region": "Kyushu / Fukuoka", "date": "2024-07", "year": 2024, "status": "visited", "note": "Visa 202404；JR-KIUSHU Ticket 20240721；机票 20JUL HKG；LiVEMAX Fukuoka Tenjin West；行程规划 ppt/pdf 20240414"}, {"place": "日本（二次，签证材料）", "country": "日本", "region": "", "date": "2024-11", "year": 2024, "status": "planned", "note": "日签申请 202411；是否成行需再确认"}, {"place": "日本（三次，签证材料）", "country": "日本", "region": "", "date": "2026-11", "year": 2026, "status": "planned", "note": "26.11日本visa；计划中"}]}, "thailand": {"zh": "泰国", "status": "visited", "trips": [{"place": "泰国", "country": "泰国", "region": "", "date": "2025-05", "year": 2025, "status": "visited", "note": "PDF 20250503；CCD 大量照片"}]}, "vietnam": {"zh": "越南", "status": "visited", "trips": [{"place": "越南", "country": "越南", "region": "", "date": "2025-05", "year": 2025, "status": "visited", "note": "eVisa E250527…（约2025-05末）"}]}, "spain": {"zh": "西班牙", "status": "planned", "trips": [{"place": "西班牙", "country": "西班牙", "region": "", "date": "2025-06", "year": 2025, "status": "planned", "note": "邀请函整理 / 在职证明 / PDF 20250604；偏签证材料，成行细节待补"}]}, "kazakhstan": {"zh": "哈萨克斯坦", "status": "visited", "trips": [{"place": "阿拉木图", "country": "哈萨克斯坦", "region": "Almaty", "date": "2025-09", "year": 2025, "status": "visited", "note": "KK&Oranger Trip - 阿拉木图.xlsx；CCD 照片"}]}, "egypt": {"zh": "埃及", "status": "visited", "trips": [{"place": "埃及", "country": "埃及", "region": "", "date": "2025-12-30", "year": 2025, "status": "visited", "note": "照片 EXIF takenDateTime 2025-12-30"}]}, "usa": {"zh": "美国", "status": "visited", "trips": [{"place": "旧金山", "country": "美国", "region": "California", "date": "2026-09", "year": 2026, "status": "visited", "note": "E-itinerary.pdf；EVUS Enrolled 20250320"}, {"place": "美加（Project Nova）", "country": "美国 / 加拿大", "region": "CHI·SEA·MSP·ATL·ELP·YYZ", "date": "2026-10-14", "year": 2026, "status": "visited", "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"}, {"place": "芝加哥 → 费城 → 纽约（东海岸计划）", "country": "美国", "region": "East Coast", "date": "2026-12", "year": 2026, "status": "planned", "note": "草案：12/7 ORD → 12/9 PHL → NYC → 12/14 EWR 回港；待订票"}]}, "canada": {"zh": "加拿大", "status": "visited", "trips": [{"place": "美加（Project Nova）", "country": "美国 / 加拿大", "region": "CHI·SEA·MSP·ATL·ELP·YYZ", "date": "2026-10-14", "year": 2026, "status": "visited", "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"}]}, "hongkong": {"zh": "中国香港", "status": "visited", "trips": [{"place": "香港", "country": "中国香港", "region": "Hong Kong", "date": "2022-05", "year": 2022, "status": "visited", "note": "行程足迹：经港往来 / 过境记录；用户更正：标为已到访"}]}, "macao": {"zh": "中国澳门", "status": "visited", "trips": [{"place": "澳门", "country": "中国澳门", "region": "Macao", "date": "2022", "year": 2022, "status": "visited", "note": "行程足迹：粤港澳往来；用户更正：标为已到访"}]}};
   var svg = document.getElementById('world-map');
   var back = document.getElementById('map-back');
   var panel = document.getElementById('country-panel');
@@ -1507,8 +1807,8 @@ body{padding-bottom:env(safe-area-inset-bottom)}
   function setMapAspect(ar){
     if(!mapFrame) return;
     if(!ar || !isFinite(ar) || ar<=0) ar = 2;
-    // clamp for layout elegance
-    ar = Math.max(1.15, Math.min(2.6, ar));
+    // Soft clamp only — keep Japan (~0.95) and Malaysia (~3.0) natural; never stretch to 2:1
+    ar = Math.max(0.85, Math.min(3.2, ar));
     mapFrame.style.setProperty('--map-ar', ar.toFixed(3));
   }
 

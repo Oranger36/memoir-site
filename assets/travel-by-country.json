@@ -236,6 +236,33 @@
         "year": 2026,
         "status": "visited",
         "note": "无锡绿发万豪 10.27–28；Fairfield Nanjing Yuhuatai 10.28–30；同日北京→香港 CX337 过境"
+      },
+      {
+        "place": "香港",
+        "country": "中国",
+        "region": "香港",
+        "date": "2022-05",
+        "year": 2022,
+        "status": "visited",
+        "note": "行程足迹：经港往来 / 过境记录"
+      },
+      {
+        "place": "澳门",
+        "country": "中国",
+        "region": "澳门",
+        "date": "2022",
+        "year": 2022,
+        "status": "visited",
+        "note": "行程足迹：粤港澳往来"
+      },
+      {
+        "place": "台湾",
+        "country": "中国",
+        "region": "台湾",
+        "date": "2024-05",
+        "year": 2024,
+        "status": "visited",
+        "note": "用户更正：台湾标为已到访"
       }
     ]
   },
@@ -280,7 +307,7 @@
   },
   "taiwan": {
     "zh": "中国台湾",
-    "status": "planned",
+    "status": "visited",
     "trips": [
       {
         "place": "台湾（签证准备）",
@@ -288,8 +315,8 @@
         "region": "",
         "date": "2024-05",
         "year": 2024,
-        "status": "planned",
-        "note": "仅签证须知 PDF；是否成行不详"
+        "status": "visited",
+        "note": "仅签证须知 PDF；是否成行不详；用户更正：标为已到访"
       }
     ]
   },
@@ -446,6 +473,36 @@
         "year": 2026,
         "status": "visited",
         "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"
+      }
+    ]
+  },
+  "hongkong": {
+    "zh": "中国香港",
+    "status": "visited",
+    "trips": [
+      {
+        "place": "香港",
+        "country": "中国香港",
+        "region": "Hong Kong",
+        "date": "2022-05",
+        "year": 2022,
+        "status": "visited",
+        "note": "行程足迹：经港往来 / 过境记录；用户更正：标为已到访"
+      }
+    ]
+  },
+  "macao": {
+    "zh": "中国澳门",
+    "status": "visited",
+    "trips": [
+      {
+        "place": "澳门",
+        "country": "中国澳门",
+        "region": "Macao",
+        "date": "2022",
+        "year": 2022,
+        "status": "visited",
+        "note": "行程足迹：粤港澳往来；用户更正：标为已到访"
       }
     ]
   }
