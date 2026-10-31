@@ -16,13 +16,6 @@
 - Style：少字多图
 
 ## 部署
-- GitHub Pages (`main` / `/`): this commit publishes the hotel and airline logo wall.
-- Logo wall is brand marks + names (+ IATA only). No 住过几次 / 飞过几次 / N 段.
-- `posters/`, `covers/`, and `book-covers/` were not deleted. Douban and 复联2 image files were not in the delta tarball, so those figures were not added and the existing walls stay as they were.
-- `assets/timeline.json` was not in the delta. The timeline block stays hidden until that file is present.
-
-## Hotels/Airlines logo wall (2026-11-01 02:10 Asia/Shanghai)
-- Expanded hotels-airlines.json: 41 hotels (+3 weak), 18 brand logos, 14 airlines
-- Official logos: Wikimedia/Wikipedia/Simple Icons (Marriott family, IHG, Shangri-La, Hilton, Cathay, HU/CZ/CA/3U/ZH/HX/9C/Y8/PN, etc.)
-- Logo wall shows brand marks only — **no** 住过几次 / 飞过几次 / N段 counts
-- Delta: `/workspace/memoir-site-delta.tar.gz`
+- GitHub Pages (`main` / `/`): hotel and airline walls use official logos plus names (airlines also show IATA).
+- No 住过几次 / 飞过几次 / N 段 on the logo wall.
+- Douban posters, book covers, and `assets/timeline.json` stay in place.
