@@ -587,11 +587,74 @@ body{padding-bottom:env(safe-area-inset-bottom)}
   .filters,.travel-meta{padding-left:18px;padding-right:18px}
 }
 
+/* —— 酒店 / 航司 logo 墙 & 时间线 —— */
+.logo-block{margin:36px 24px 8px;max-width:1100px}
+.logo-block h3{
+  font-family:var(--serif);font-weight:500;font-size:1.15rem;
+  letter-spacing:.22em;margin:0 0 6px;color:var(--ink)
+}
+.logo-block .hint{color:var(--muted);font-size:12px;letter-spacing:.14em;margin:0 0 18px}
+.logo-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+  gap:14px
+}
+.logo-card{
+  background:linear-gradient(160deg,rgba(255,248,235,.06),rgba(0,0,0,.22));
+  border:1px solid rgba(232,213,163,.18);
+  border-radius:18px;padding:18px 14px 14px;
+  display:flex;flex-direction:column;align-items:center;gap:10px;
+  min-height:128px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s
+}
+.logo-card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(196,163,90,.45);
+  box-shadow:0 16px 40px rgba(0,0,0,.35)
+}
+.logo-card img{
+  width:100%;max-width:132px;height:64px;object-fit:contain;
+  background:#f6f1e7;border-radius:10px;padding:8px 10px;box-sizing:border-box
+}
+.logo-card .ln{
+  font-size:12px;letter-spacing:.08em;text-align:center;color:var(--ink);
+  line-height:1.35
+}
+.logo-card .ls{
+  font-size:10px;letter-spacing:.12em;color:var(--muted);text-align:center
+}
+.airline-grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.timeline-wrap{max-width:720px;margin:0 auto;padding:0 24px;position:relative}
+.timeline-wrap::before{
+  content:"";position:absolute;left:34px;top:8px;bottom:8px;width:1px;
+  background:linear-gradient(180deg,transparent,rgba(196,163,90,.55),transparent)
+}
+.tl-item{position:relative;padding:0 0 28px 56px}
+.tl-item::before{
+  content:"";position:absolute;left:28px;top:8px;width:12px;height:12px;border-radius:50%;
+  background:var(--gold,#C4A35A);box-shadow:0 0 0 4px rgba(196,163,90,.2)
+}
+.tl-item .ty{font-size:11px;letter-spacing:.2em;color:var(--muted);margin-bottom:4px}
+.tl-item .tt{font-family:var(--serif);font-size:1.15rem;letter-spacing:.08em;margin:0 0 4px}
+.tl-item .ts{font-size:13px;color:var(--muted);letter-spacing:.04em;margin:0}
+.tl-item[data-kind="school"]::before{background:#7BA3C9}
+.tl-item[data-kind="work"]::before{background:#C47A5A}
+.tl-item[data-kind="travel"]::before{background:#5AC4A3}
+.tl-item[data-kind="life"]::before{background:#C4A35A}
+@media (max-width:600px){
+  .logo-block{margin:28px 18px 4px}
+  .logo-grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+  .logo-card{min-height:110px;padding:14px 10px 12px;border-radius:14px}
+  .logo-card img{height:48px}
+  .timeline-wrap::before{left:22px}
+  .tl-item{padding-left:44px}
+  .tl-item::before{left:16px}
+}
+
 </style>
 </head>
 <body>
 <nav class="nav" aria-label="章节">
   <a href="#hero">扉页</a>
+  <a href="#timeline">时间线</a>
   <a href="#films">影视</a>
   <a href="#music">音乐</a>
   <a href="#books">书籍</a>
@@ -601,8 +664,17 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 <section class="hero" id="hero">
   <div class="seal">成志</div>
   <h1>回忆录</h1>
-  <p class="sub">海报横滑 · 专辑封面 · 书籍 · 世界地图足迹</p>
+  <p class="sub">时间线 · 海报 · 音乐 · 书籍 · 足迹 · 酒店与航司</p>
   <div class="scroll-hint">向下滚动</div>
+</section>
+
+
+<section class="panel" id="timeline">
+  <div class="panel-head">
+    <h2>时间线</h2>
+    <span class="meta">金陵中学 · XMUM · HKU · 实习入职 · 旅行</span>
+  </div>
+  <div class="timeline-wrap" id="timeline-list" aria-label="人生时间线"></div>
 </section>
 
 <section class="panel" id="films">
@@ -723,6 +795,7 @@ body{padding-bottom:env(safe-area-inset-bottom)}
         <img src="posters/agents-of-shield.jpg" alt="神盾局特工" loading="lazy" decoding="async"/>
         <figcaption><span class="pt">神盾局特工</span><span class="py">2013</span></figcaption>
       </figure>
+
       </div>
     </div>
     <p class="cinema-hint">拖拽 · 滚轮 · 左右浏览</p>
@@ -951,6 +1024,18 @@ body{padding-bottom:env(safe-area-inset-bottom)}
       <div class="place-list" id="cp-list"></div>
     </div>
   </div>
+
+  <div class="logo-block" id="hotels-block">
+    <h3>住过的酒店</h3>
+    <p class="hint">品牌 logo 墙 · 少字多图</p>
+    <div class="logo-grid" id="hotel-brand-grid"></div>
+  </div>
+  <div class="logo-block" id="airlines-block">
+    <h3>飞过的航司</h3>
+    <p class="hint">航司 logo 墙 · 少字多图</p>
+    <div class="logo-grid airline-grid" id="airline-logo-grid"></div>
+  </div>
+
 </section>
 
 
@@ -1728,6 +1813,7 @@ body{padding-bottom:env(safe-area-inset-bottom)}
         <img src="book-covers/breaking-into-wall-street-the-400-most-common-interview-questions.jpg" alt="Breaking Into Wall Street: The 400 Most Common Interview Questions" loading="lazy" decoding="async"/>
         <figcaption><span class="pt">Breaking Into Wall Street: The 400 Most Common Interview Questions</span><span class="py">—</span></figcaption>
       </figure>
+
       </div>
     </div>
     <p class="cinema-hint">拖拽 · 滚轮 · 左右浏览</p>
@@ -2178,6 +2264,71 @@ body{padding-bottom:env(safe-area-inset-bottom)}
       },true);
     });
   }
+
+
+  // timeline + hotels/airlines logo walls
+  (function(){
+    function el(tag, cls, html){
+      var n=document.createElement(tag);
+      if(cls) n.className=cls;
+      if(html!=null) n.innerHTML=html;
+      return n;
+    }
+    function hideTimeline(){
+      var sec=document.getElementById('timeline');
+      if(sec) sec.hidden=true;
+      var link=document.querySelector('a[href="#timeline"]');
+      if(link) link.hidden=true;
+    }
+    fetch('assets/timeline.json').then(function(r){
+      if(!r.ok) throw new Error('no timeline');
+      return r.json();
+    }).then(function(data){
+      var root=document.getElementById('timeline-list');
+      if(!root||!data||!data.items||!data.items.length){ hideTimeline(); return; }
+      data.items.forEach(function(it){
+        var item=el('div','tl-item');
+        item.setAttribute('data-kind', it.kind||'life');
+        item.appendChild(el('div','ty', it.year||''));
+        item.appendChild(el('h3','tt', it.title||''));
+        item.appendChild(el('p','ts', it.subtitle||''));
+        root.appendChild(item);
+      });
+    }).catch(hideTimeline);
+
+    fetch('assets/hotels-airlines.json').then(function(r){return r.json()}).then(function(data){
+      var bg=document.getElementById('hotel-brand-grid');
+      var ag=document.getElementById('airline-logo-grid');
+      if(bg && data.brands){
+        data.brands.forEach(function(b){
+          var card=el('article','logo-card');
+          var img=document.createElement('img');
+          img.src='assets/hotels/'+b.logo;
+          img.alt=b.zh||b.name;
+          img.loading='lazy';
+          card.appendChild(img);
+          card.appendChild(el('div','ln', b.zh||b.name));
+          card.appendChild(el('div','ls', b.name||''));
+          bg.appendChild(card);
+        });
+      }
+      if(ag && data.airlines){
+        data.airlines.forEach(function(a){
+          var card=el('article','logo-card');
+          var img=document.createElement('img');
+          img.src='assets/airlines/'+a.logo;
+          img.alt=a.zh||a.name;
+          img.loading='lazy';
+          card.appendChild(img);
+          var label=a.zh||a.name;
+          if(a.iata) label += ' · '+a.iata;
+          card.appendChild(el('div','ln', label));
+          card.appendChild(el('div','ls', a.name||''));
+          ag.appendChild(card);
+        });
+      }
+    }).catch(function(){});
+  })();
 
   setMapAspect(2);
   applyClasses();
