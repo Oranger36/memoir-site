@@ -666,112 +666,98 @@
       "iata": "HU",
       "name": "Hainan Airlines",
       "zh": "海南航空",
-      "logo": "hainan.svg",
-      "flights": 12
+      "logo": "hainan.svg"
     },
     {
       "id": "cx",
       "iata": "CX",
       "name": "Cathay Pacific",
       "zh": "国泰航空",
-      "logo": "cathay.svg",
-      "flights": 5
+      "logo": "cathay.svg"
     },
     {
       "id": "cz",
       "iata": "CZ",
       "name": "China Southern",
       "zh": "中国南方航空",
-      "logo": "china-southern.svg",
-      "flights": 3
+      "logo": "china-southern-mark.svg"
     },
     {
       "id": "y8",
       "iata": "Y8",
       "name": "Suparna Airlines",
       "zh": "金鹏航空",
-      "logo": "suparna.png",
-      "flights": 3
+      "logo": "suparna.png"
     },
     {
       "id": "aa",
       "iata": "AA",
       "name": "American Airlines",
       "zh": "美国航空",
-      "logo": "american.svg",
-      "flights": 2
+      "logo": "american.svg"
     },
     {
       "id": "br",
       "iata": "BR",
       "name": "EVA Air",
       "zh": "长荣航空",
-      "logo": "eva.svg",
-      "flights": 2
+      "logo": "eva.svg"
     },
     {
       "id": "pn",
       "iata": "PN",
       "name": "West Air",
       "zh": "西部航空",
-      "logo": "west-air.png",
-      "flights": 2
+      "logo": "west-air.png"
     },
     {
       "id": "3u",
       "iata": "3U",
       "name": "Sichuan Airlines",
       "zh": "四川航空",
-      "logo": "sichuan.svg",
-      "flights": 1
+      "logo": "sichuan.svg"
     },
     {
       "id": "9c",
       "iata": "9C",
       "name": "Spring Airlines",
       "zh": "春秋航空",
-      "logo": "spring.svg",
-      "flights": 1
+      "logo": "spring.svg"
     },
     {
       "id": "ca",
       "iata": "CA",
       "name": "Air China",
       "zh": "中国国际航空",
-      "logo": "air-china.svg",
-      "flights": 1
+      "logo": "air-china.svg"
     },
     {
       "id": "dl",
       "iata": "DL",
       "name": "Delta Air Lines",
       "zh": "达美航空",
-      "logo": "delta.svg",
-      "flights": 1
+      "logo": "delta.svg"
     },
     {
       "id": "hx",
       "iata": "HX",
       "name": "Hong Kong Airlines",
       "zh": "香港航空",
-      "logo": "hongkong-airlines.svg",
-      "flights": 1
+      "logo": "hongkong-airlines.svg"
     },
     {
       "id": "mu",
       "iata": "MU",
       "name": "China Eastern",
       "zh": "中国东方航空",
-      "logo": "china-eastern.svg",
-      "flights": 1
+      "logo": "china-eastern.svg"
     },
     {
       "id": "zh",
       "iata": "ZH",
       "name": "Shenzhen Airlines",
       "zh": "深圳航空",
-      "logo": "shenzhen-air.svg",
-      "flights": 1
+      "logo": "shenzhen-air.svg"
     }
   ]
 }
