@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-05 Stary memoir update (Hilton Seattle + Langham Agate)",
   "timezone": "Asia/Shanghai",
   "sources": [
     "Gmail Ctrip/IHG/Marriott/Hilton confirmations & folios",
@@ -413,9 +413,11 @@
       "logo": "hilton-garden-inn.png",
       "place": "Seattle",
       "dates": [
+        "2026-10-17",
         "2024"
       ],
-      "evidence": "prior Hilton mail"
+      "evidence": "Trip.com e-receipt HKD 1,657.68 (2026-10-17–18); prior Hilton mail",
+      "checkout": "2026-10-18"
     },
     {
       "id": "orange-crystal-cs",
@@ -758,6 +760,18 @@
       "name": "Shenzhen Airlines",
       "zh": "深圳航空",
       "logo": "shenzhen-air.svg"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "langham-place-club",
+      "name": "Langham Place Club",
+      "zh": "朗廷卓逸会",
+      "tier": "Agate",
+      "tier_zh": "玛瑙",
+      "valid_through": "2027-11-02",
+      "evidence": "renewal confirmation (digest 2026-11)",
+      "kind": "hotel_loyalty"
     }
   ]
 }
