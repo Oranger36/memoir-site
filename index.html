@@ -622,6 +622,17 @@ body{padding-bottom:env(safe-area-inset-bottom)}
   font-size:10px;letter-spacing:.12em;color:var(--muted);text-align:center
 }
 .airline-grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.stay-rail{
+  display:flex;gap:12px;overflow-x:auto;padding:4px 2px 16px;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch
+}
+.stay-chip{
+  flex:0 0 auto;scroll-snap-align:start;
+  background:rgba(255,248,235,.05);border:1px solid rgba(232,213,163,.16);
+  border-radius:999px;padding:10px 16px;font-size:12px;letter-spacing:.06em;
+  color:var(--ink);white-space:nowrap
+}
+.stay-chip b{color:var(--gold,#C4A35A);font-weight:500;margin-right:6px}
 .timeline-wrap{max-width:720px;margin:0 auto;padding:0 24px;position:relative}
 .timeline-wrap::before{
   content:"";position:absolute;left:34px;top:8px;bottom:8px;width:1px;
@@ -1121,12 +1132,19 @@ body{padding-bottom:env(safe-area-inset-bottom)}
     <h3>住过的酒店</h3>
     <p class="hint">品牌 logo 墙 · 少字多图</p>
     <div class="logo-grid" id="hotel-brand-grid"></div>
+    <div class="stay-rail" id="hotel-stay-rail" aria-label="入住记录"></div>
   </div>
   <div class="logo-block" id="airlines-block">
     <h3>飞过的航司</h3>
     <p class="hint">航司 logo 墙 · 少字多图</p>
     <div class="logo-grid airline-grid" id="airline-logo-grid"></div>
   </div>
+  <div class="logo-block" id="memberships-block">
+    <h3>会籍</h3>
+    <p class="hint">航司 · 酒店忠诚计划 · 只记等级</p>
+    <div class="logo-grid" id="membership-logo-grid"></div>
+  </div>
+
 
 </section>
 
@@ -2389,6 +2407,7 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 
     fetch('assets/hotels-airlines.json').then(function(r){return r.json()}).then(function(data){
       var bg=document.getElementById('hotel-brand-grid');
+      var rail=document.getElementById('hotel-stay-rail');
       var ag=document.getElementById('airline-logo-grid');
       if(bg && data.brands){
         data.brands.forEach(function(b){
@@ -2403,6 +2422,14 @@ body{padding-bottom:env(safe-area-inset-bottom)}
           bg.appendChild(card);
         });
       }
+      if(rail && data.hotels){
+        data.hotels.forEach(function(h){
+          var chip=el('div','stay-chip');
+          var when=(h.dates&&h.dates[0])||'';
+          chip.innerHTML='<b>'+when+'</b>'+(h.name||'')+' · '+(h.place||'');
+          rail.appendChild(chip);
+        });
+      }
       if(ag && data.airlines){
         data.airlines.forEach(function(a){
           var card=el('article','logo-card');
@@ -2414,8 +2441,29 @@ body{padding-bottom:env(safe-area-inset-bottom)}
           var label=a.zh||a.name;
           if(a.iata) label += ' · '+a.iata;
           card.appendChild(el('div','ln', label));
+          // brand logos only — no flight/stay counts on the wall
           card.appendChild(el('div','ls', a.name||''));
           ag.appendChild(card);
+        });
+      }
+      var mg=document.getElementById('membership-logo-grid');
+      if(mg && data.memberships){
+        data.memberships.forEach(function(m){
+          var card=el('article','logo-card');
+          var img=document.createElement('img');
+          img.src='assets/'+m.logo;
+          img.alt=m.zh||m.name;
+          img.loading='lazy';
+          card.appendChild(img);
+          card.appendChild(el('div','ln', m.zh||m.name));
+          var tier='';
+          if(m.tier && m.tier_zh && m.tier!==m.tier_zh) tier=m.tier+' / '+m.tier_zh;
+          else tier=m.tier||m.tier_zh||'';
+          var sub=tier;
+          if(m.valid_through) sub=sub ? (sub+' · through '+m.valid_through) : ('through '+m.valid_through);
+          if(!sub) sub=m.program||m.name||'';
+          card.appendChild(el('div','ls', sub));
+          mg.appendChild(card);
         });
       }
     }).catch(function(){});

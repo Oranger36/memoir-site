@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-05 Stary Apple Wallet memberships",
   "timezone": "Asia/Shanghai",
   "sources": [
     "Gmail Ctrip/IHG/Marriott/Hilton confirmations & folios",
@@ -413,9 +413,11 @@
       "logo": "hilton-garden-inn.png",
       "place": "Seattle",
       "dates": [
+        "2026-10-17",
         "2024"
       ],
-      "evidence": "prior Hilton mail"
+      "evidence": "Trip.com e-receipt HKD 1,657.68 (2026-10-17–18); prior Hilton mail",
+      "checkout": "2026-10-18"
     },
     {
       "id": "orange-crystal-cs",
@@ -758,6 +760,181 @@
       "name": "Shenzhen Airlines",
       "zh": "深圳航空",
       "logo": "shenzhen-air.svg"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "qatar-privilege-club",
+      "name": "Privilege Club",
+      "zh": "卡塔尔航空会员",
+      "program": "Qatar Airways Privilege Club",
+      "kind": "airline_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "memberships/qatar.svg",
+      "iata": "QR",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "krisflyer",
+      "name": "KrisFlyer",
+      "zh": "KrisFlyer",
+      "program": "Singapore Airlines KrisFlyer",
+      "kind": "airline_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "memberships/singapore.svg",
+      "iata": "SQ",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "xiamenair",
+      "name": "XiamenAir",
+      "zh": "厦门航空",
+      "program": "XiamenAir",
+      "kind": "airline_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "memberships/xiamen.svg",
+      "iata": "MF",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "china-eastern",
+      "name": "China Eastern",
+      "zh": "东方航空",
+      "program": "China Eastern Airlines",
+      "kind": "airline_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "airlines/china-eastern.svg",
+      "iata": "MU",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "phoenix-miles",
+      "name": "PhoenixMiles",
+      "zh": "凤凰知音",
+      "program": "Air China PhoenixMiles",
+      "kind": "airline_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "airlines/air-china.svg",
+      "iata": "CA",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "hainan-golden",
+      "name": "Hainan Airlines",
+      "zh": "海南航空",
+      "program": "Hainan Airlines",
+      "kind": "airline_loyalty",
+      "tier": "Golden Card",
+      "tier_zh": "金卡",
+      "logo": "airlines/hainan.svg",
+      "iata": "HU",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "cathay",
+      "name": "Cathay",
+      "zh": "国泰",
+      "program": "Cathay",
+      "kind": "airline_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "airlines/cathay.svg",
+      "iata": "CX",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "accor-all",
+      "name": "ALL - Accor Live Limitless",
+      "zh": "雅高 ALL",
+      "program": "Accor Live Limitless",
+      "kind": "hotel_loyalty",
+      "tier": "Classic",
+      "tier_zh": "Classic",
+      "logo": "memberships/accor-all.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "hilton-honors",
+      "name": "Hilton Honors",
+      "zh": "希尔顿荣誉客会",
+      "program": "Hilton Honors",
+      "kind": "hotel_loyalty",
+      "tier": "Member",
+      "tier_zh": "会员",
+      "logo": "hotels/hilton.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "world-of-hyatt",
+      "name": "World of Hyatt",
+      "zh": "凯悦世界",
+      "program": "World of Hyatt",
+      "kind": "hotel_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "hotels/hyatt.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "gha-discovery",
+      "name": "GHA Discovery",
+      "zh": "GHA Discovery",
+      "program": "GHA Discovery",
+      "kind": "hotel_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "memberships/gha-discovery.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "ihg-one-rewards",
+      "name": "IHG One Rewards",
+      "zh": "洲际优悦会",
+      "program": "IHG One Rewards",
+      "kind": "hotel_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "hotels/ihg.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "marriott-bonvoy",
+      "name": "Marriott Bonvoy",
+      "zh": "万豪旅享家",
+      "program": "Marriott Bonvoy",
+      "kind": "hotel_loyalty",
+      "tier": "Titanium Elite",
+      "tier_zh": "钛金精英",
+      "logo": "hotels/marriott.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "shangri-la-circle",
+      "name": "Shangri-La Circle",
+      "zh": "香格里拉金环会",
+      "program": "Shangri-La Circle",
+      "kind": "hotel_loyalty",
+      "tier": null,
+      "tier_zh": null,
+      "logo": "hotels/shangri-la.svg",
+      "evidence": "Apple Wallet screenshot 2026-11-05"
+    },
+    {
+      "id": "langham-place-club",
+      "name": "Langham Place Club",
+      "zh": "朗廷卓逸会",
+      "program": "Langham Place Club",
+      "kind": "hotel_loyalty",
+      "tier": "Agate",
+      "tier_zh": "玛瑙",
+      "valid_through": "2027-11-02",
+      "logo": "memberships/langham.svg",
+      "evidence": "renewal confirmation (digest 2026-11) + Apple Wallet"
     }
   ]
 }
