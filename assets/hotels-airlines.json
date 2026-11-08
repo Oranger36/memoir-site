@@ -6,7 +6,8 @@
     "QQ 航旅纵横 boarding passes OCR + hotel invoices",
     "travel-footprints.json",
     "Outlook Marriott/Hilton (prior)",
-    "Official logos: Wikimedia / Wikipedia / Simple Icons"
+    "Official logos: Wikimedia / Wikipedia / Simple Icons",
+    "报销文件夹名"
   ],
   "hotels": [
     {
@@ -79,9 +80,10 @@
       "logo": "courtyard.svg",
       "place": "银川",
       "dates": [
+        "2026-08",
         "2026-09"
       ],
-      "evidence": "confirmation"
+      "evidence": "confirmation；报销文件夹名"
     },
     {
       "id": "courtyard-hk-shatin",
@@ -287,9 +289,10 @@
       "logo": "delta-hotels.svg",
       "place": "西安",
       "dates": [
+        "2023-09",
         "2025-10"
       ],
-      "evidence": "confirmation"
+      "evidence": "confirmation；报销文件夹名"
     },
     {
       "id": "hi-mississauga",
@@ -337,12 +340,13 @@
       "dates": [
         "2026-01",
         "2026-02",
+        "2026-03",
         "2026-04",
         "2026-05",
         "2026-06",
         "2026-09"
       ],
-      "evidence": "QQ folio×9+"
+      "evidence": "QQ folio×9+；报销文件夹名"
     },
     {
       "id": "cp-zhongzhou",
@@ -376,9 +380,10 @@
       "logo": "shangri-la.svg",
       "place": "福州",
       "dates": [
+        "2024-09",
         "2024-10"
       ],
-      "evidence": "invoice"
+      "evidence": "invoice；报销文件夹名"
     },
     {
       "id": "shangri-la-sz",
@@ -388,10 +393,11 @@
       "logo": "shangri-la.svg",
       "place": "深圳",
       "dates": [
+        "2025-03",
         "2026-05",
         "2026-08"
       ],
-      "evidence": "Ctrip×多单"
+      "evidence": "Ctrip×多单；报销文件夹名"
     },
     {
       "id": "traders-shanghai",
@@ -515,6 +521,644 @@
         "2017-10"
       ],
       "evidence": "confirmation"
+    },
+    {
+      "id": "china-world-beijing",
+      "name": "北京中国大饭店",
+      "brand": "China World / Shangri-La",
+      "brand_zh": "中国大饭店",
+      "logo": "shangri-la.svg",
+      "place": "北京",
+      "dates": [
+        "2023-09",
+        "2023-10",
+        "2024-04",
+        "2024-07",
+        "2024-08",
+        "2026-08",
+        "2026-10",
+        "2026-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "kerry-beijing",
+      "name": "北京嘉里酒店",
+      "brand": "Kerry Hotel / Shangri-La",
+      "brand_zh": "嘉里",
+      "logo": "shangri-la.svg",
+      "place": "北京",
+      "dates": [
+        "2023-12",
+        "2024-03"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "mea-beijing",
+      "name": "北京万豪行政公寓",
+      "brand": "Marriott Executive Apartments",
+      "brand_zh": "万豪行政公寓",
+      "logo": "marriott.svg",
+      "place": "北京",
+      "dates": [
+        "2023-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "renaissance-wuhan-guangming",
+      "name": "武汉光明万丽酒店",
+      "brand": "Renaissance",
+      "brand_zh": "万丽",
+      "logo": "renaissance.svg",
+      "place": "武汉",
+      "dates": [
+        "2023-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "sheraton-shunde",
+      "name": "顺德喜来登",
+      "brand": "Sheraton",
+      "brand_zh": "喜来登",
+      "logo": "marriott.svg",
+      "place": "顺德",
+      "dates": [
+        "2023-08"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "four-points-guiyang-huaxi",
+      "name": "贵阳花溪福朋喜来登",
+      "brand": "Four Points by Sheraton",
+      "brand_zh": "福朋喜来登",
+      "logo": "marriott.svg",
+      "place": "贵阳",
+      "dates": [
+        "2024-01"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "sheraton-nansha",
+      "name": "广州南沙喜来登",
+      "brand": "Sheraton",
+      "brand_zh": "喜来登",
+      "logo": "marriott.svg",
+      "place": "广州南沙",
+      "dates": [
+        "2024-01"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "marriott-nanning",
+      "name": "南宁万豪",
+      "brand": "Marriott",
+      "brand_zh": "万豪",
+      "logo": "marriott.svg",
+      "place": "南宁",
+      "dates": [
+        "2024-01",
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "courtyard-tianjin-lujiazui",
+      "name": "天津陆家嘴万怡酒店",
+      "brand": "Courtyard by Marriott",
+      "brand_zh": "万怡",
+      "logo": "courtyard.svg",
+      "place": "天津",
+      "dates": [
+        "2024-03"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "marriott-beijing-hna",
+      "name": "北京海航大厦万豪",
+      "brand": "Marriott",
+      "brand_zh": "万豪",
+      "logo": "marriott.svg",
+      "place": "北京",
+      "dates": [
+        "2024-03"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "hampton-yueyang",
+      "name": "岳阳希尔顿欢朋",
+      "brand": "Hampton by Hilton",
+      "brand_zh": "希尔顿欢朋",
+      "logo": "hilton.svg",
+      "place": "岳阳",
+      "dates": [
+        "2024-04"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "four-points-beijing-haidian",
+      "name": "北京海淀福朋",
+      "brand": "Four Points by Sheraton",
+      "brand_zh": "福朋",
+      "logo": "marriott.svg",
+      "place": "北京",
+      "dates": [
+        "2024-04"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "sheraton-beijing-jinyu",
+      "name": "北京金隅喜来登",
+      "brand": "Sheraton",
+      "brand_zh": "喜来登",
+      "logo": "marriott.svg",
+      "place": "北京",
+      "dates": [
+        "2023-10",
+        "2024-04"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "holiday-inn-fuan",
+      "name": "福安假日酒店",
+      "brand": "Holiday Inn",
+      "brand_zh": "假日",
+      "logo": "holiday-inn.svg",
+      "place": "福安",
+      "dates": [
+        "2024-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "boly-ningde",
+      "name": "宁德铂骊酒店",
+      "brand": "Boly / 铂骊",
+      "brand_zh": "铂骊",
+      "logo": "",
+      "place": "宁德",
+      "dates": [
+        "2024-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-beihai",
+      "name": "北海香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "北海",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "zhaosheng-liuzhou",
+      "name": "柳州兆笙酒店",
+      "brand": "兆笙",
+      "brand_zh": "兆笙",
+      "logo": "",
+      "place": "柳州",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "wyndham-baise",
+      "name": "百色温德姆酒店",
+      "brand": "Wyndham",
+      "brand_zh": "温德姆",
+      "logo": "",
+      "place": "百色",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "marriott-nantong",
+      "name": "南通万豪",
+      "brand": "Marriott",
+      "brand_zh": "万豪",
+      "logo": "marriott.svg",
+      "place": "南通",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "wanda-realm-jinhua",
+      "name": "金华万达嘉华酒店",
+      "brand": "Wanda Realm",
+      "brand_zh": "万达嘉华",
+      "logo": "",
+      "place": "金华",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "wanda-realm-yiwu",
+      "name": "义乌万达嘉华酒店",
+      "brand": "Wanda Realm",
+      "brand_zh": "万达嘉华",
+      "logo": "",
+      "place": "义乌",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "hilton-taizhou",
+      "name": "台州希尔顿",
+      "brand": "Hilton",
+      "brand_zh": "希尔顿",
+      "logo": "hilton.svg",
+      "place": "台州",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-changchun",
+      "name": "长春香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "长春",
+      "dates": [
+        "2024-11",
+        "2025-07",
+        "2026-08"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "hampton-yanji",
+      "name": "延吉希尔顿欢朋",
+      "brand": "Hampton by Hilton",
+      "brand_zh": "希尔顿欢朋",
+      "logo": "hilton.svg",
+      "place": "延吉",
+      "dates": [
+        "2024-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-harbin",
+      "name": "哈尔滨香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "哈尔滨",
+      "dates": [
+        "2024-11",
+        "2025-07"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "kempinski-yinchuan",
+      "name": "银川凯宾斯基",
+      "brand": "Kempinski",
+      "brand_zh": "凯宾斯基",
+      "logo": "",
+      "place": "银川",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-baotou",
+      "name": "包头香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "包头",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "holiday-inn-chifeng",
+      "name": "赤峰假日酒店",
+      "brand": "Holiday Inn",
+      "brand_zh": "假日",
+      "logo": "holiday-inn.svg",
+      "place": "赤峰",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-dalian",
+      "name": "大连香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "大连",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "grand-sky-jian",
+      "name": "吉安格兰云天",
+      "brand": "格兰云天",
+      "brand_zh": "格兰云天",
+      "logo": "",
+      "place": "吉安",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "zunlan-xinchang",
+      "name": "新昌尊蓝山居",
+      "brand": "尊蓝山居",
+      "brand_zh": "尊蓝山居",
+      "logo": "",
+      "place": "新昌",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "jw-shanghai",
+      "name": "上海 JW 万豪",
+      "brand": "JW Marriott",
+      "brand_zh": "JW 万豪",
+      "logo": "marriott.svg",
+      "place": "上海",
+      "dates": [
+        "2024-12"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "renaissance-shanghai-hongqiao",
+      "name": "上海龙之梦万丽",
+      "brand": "Renaissance",
+      "brand_zh": "万丽",
+      "logo": "renaissance.svg",
+      "place": "上海",
+      "dates": [
+        "2025-01"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "renaissance-shanghai-mingjie",
+      "name": "上海明捷万丽",
+      "brand": "Renaissance",
+      "brand_zh": "万丽",
+      "logo": "renaissance.svg",
+      "place": "上海",
+      "dates": [
+        "2025-01"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "marriott-shangyu",
+      "name": "上虞万豪",
+      "brand": "Marriott",
+      "brand_zh": "万豪",
+      "logo": "marriott.svg",
+      "place": "上虞",
+      "dates": [
+        "2025-02"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "sofitel-lianyungang",
+      "name": "连云港苏宁索菲特",
+      "brand": "Sofitel",
+      "brand_zh": "索菲特",
+      "logo": "",
+      "place": "连云港",
+      "dates": [
+        "2025-02"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "marriott-shanghai-kangqiao",
+      "name": "上海康桥万豪",
+      "brand": "Marriott",
+      "brand_zh": "万豪",
+      "logo": "marriott.svg",
+      "place": "上海",
+      "dates": [
+        "2025-02"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "sheraton-jinan",
+      "name": "济南喜来登",
+      "brand": "Sheraton",
+      "brand_zh": "喜来登",
+      "logo": "marriott.svg",
+      "place": "济南",
+      "dates": [
+        "2025-02"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "sheraton-panyu",
+      "name": "广州番禺喜来登",
+      "brand": "Sheraton",
+      "brand_zh": "喜来登",
+      "logo": "marriott.svg",
+      "place": "广州番禺",
+      "dates": [
+        "2025-03"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-xian",
+      "name": "西安香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "西安",
+      "dates": [
+        "2025-08",
+        "2025-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "wanda-realm-fushun",
+      "name": "抚顺万达嘉华",
+      "brand": "Wanda Realm",
+      "brand_zh": "万达嘉华",
+      "logo": "",
+      "place": "抚顺",
+      "dates": [
+        "2025-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "ihg-chengdu-tianfu",
+      "name": "成都天府空港智选假日",
+      "brand": "Holiday Inn Express",
+      "brand_zh": "智选假日",
+      "logo": "holiday-inn-express.svg",
+      "place": "成都",
+      "dates": [
+        "2025-11"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "atour-s-shenzhen",
+      "name": "深圳亚朵S酒店",
+      "brand": "Atour S",
+      "brand_zh": "亚朵S",
+      "logo": "",
+      "place": "深圳",
+      "dates": [
+        "2026-03"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "wanyí-luoyang",
+      "name": "洛阳万宜酒店",
+      "brand": "万宜",
+      "brand_zh": "万宜",
+      "logo": "",
+      "place": "洛阳",
+      "dates": [
+        "2026-03"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "jen-orchard-singapore",
+      "name": "JEN Singapore Orchardgateway",
+      "brand": "JEN by Shangri-La",
+      "brand_zh": "JEN",
+      "logo": "shangri-la.svg",
+      "place": "新加坡",
+      "dates": [
+        "2026-06"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "shangri-la-shenyang",
+      "name": "沈阳香格里拉",
+      "brand": "Shangri-La",
+      "brand_zh": "香格里拉",
+      "logo": "shangri-la.svg",
+      "place": "沈阳",
+      "dates": [
+        "2026-07"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "jen-kunming",
+      "name": "昆明 JEN 酒店",
+      "brand": "JEN by Shangri-La",
+      "brand_zh": "JEN",
+      "logo": "shangri-la.svg",
+      "place": "昆明",
+      "dates": [
+        "2026-07"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "orange-beijing-tiantan",
+      "name": "桔子北京天坛东门",
+      "brand": "Orange Hotel",
+      "brand_zh": "桔子",
+      "logo": "huazhu.png",
+      "place": "北京",
+      "dates": [
+        "2023-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "orange-crystal-beijing-qianmen",
+      "name": "桔子水晶北京前门",
+      "brand": "Orange Crystal",
+      "brand_zh": "桔子水晶",
+      "logo": "huazhu.png",
+      "place": "北京",
+      "dates": [
+        "2023-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "citigo-beijing-tiananmen",
+      "name": "北京天安门 CitiGo 欢阁",
+      "brand": "CitiGO",
+      "brand_zh": "欢阁",
+      "logo": "huazhu.png",
+      "place": "北京",
+      "dates": [
+        "2023-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "beijing-international-hotel",
+      "name": "北京国际饭店",
+      "brand": "Beijing International",
+      "brand_zh": "国际饭店",
+      "logo": "",
+      "place": "北京",
+      "dates": [
+        "2023-10"
+      ],
+      "evidence": "报销文件夹名"
+    },
+    {
+      "id": "xiguan-shipu-guangzhou",
+      "name": "广州西关十甫酒店",
+      "brand": "独立",
+      "brand_zh": "西关十甫",
+      "logo": "",
+      "place": "广州",
+      "dates": [
+        "2023-02"
+      ],
+      "evidence": "报销文件夹名"
     }
   ],
   "hotels_weak": [

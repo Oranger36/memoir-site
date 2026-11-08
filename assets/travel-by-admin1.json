@@ -19,13 +19,22 @@
             "note": "酒店预订单与机票截图；约2019年2月"
           },
           {
+            "place": "北京 · 西安",
+            "country": "中国",
+            "region": "北京 · 陕西",
+            "date": "2023-09-22",
+            "year": 2023,
+            "status": "work",
+            "note": "中国大饭店 / 万枫 / 西安 Delta；含北京–西宁段"
+          },
+          {
             "place": "西安（出差）",
             "country": "中国",
             "region": "陕西",
             "date": "2025-08",
             "year": 2025,
             "status": "work",
-            "note": "出差报销；与 2019 休闲西安区分"
+            "note": "出差报销；与 2019 休闲西安区分；西安香格里拉；咸阳·彬州"
           },
           {
             "place": "沈阳 → 西安 → 郑州",
@@ -34,7 +43,7 @@
             "date": "2025-10",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；抚顺万达嘉华；西安香格里拉 / 蓝溪；郑州中州假日"
           }
         ]
       },
@@ -60,6 +69,15 @@
             "year": 2024,
             "status": "visited",
             "note": "2024年国庆；包车合同 + 回忆记录（大量照片）"
+          },
+          {
+            "place": "新疆",
+            "country": "中国",
+            "region": "新疆",
+            "date": "2025-11",
+            "year": 2025,
+            "status": "work",
+            "note": "出差报销；乌鲁木齐–库尔勒–和田–阿克苏–成都；成都天府空港智选假日"
           }
         ]
       },
@@ -136,7 +154,7 @@
             "date": "2026-07-15",
             "year": 2026,
             "status": "work",
-            "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）"
+            "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）；前接上海 Traders、商丘、郑州皇冠假日；昆明 JEN；禄劝"
           }
         ]
       },
@@ -153,6 +171,33 @@
             "year": 2022,
             "status": "visited",
             "note": "大量照片；文件夹约2022年7月建"
+          },
+          {
+            "place": "福州",
+            "country": "中国",
+            "region": "福建",
+            "date": "2024-09-08",
+            "year": 2024,
+            "status": "work",
+            "note": "福州香格里拉；经厦门回港"
+          },
+          {
+            "place": "宁德 · 福安",
+            "country": "中国",
+            "region": "福建",
+            "date": "2024-10-30",
+            "year": 2024,
+            "status": "work",
+            "note": "福安假日、宁德铂骊"
+          },
+          {
+            "place": "平潭",
+            "country": "中国",
+            "region": "福建",
+            "date": "2025-12-03",
+            "year": 2025,
+            "status": "work",
+            "note": "经福州；深圳–福州–平潭往返"
           }
         ]
       },
@@ -178,6 +223,15 @@
         "status": "visited",
         "trips": [
           {
+            "place": "北京 · 西安",
+            "country": "中国",
+            "region": "北京 · 陕西",
+            "date": "2023-09-22",
+            "year": 2023,
+            "status": "work",
+            "note": "中国大饭店 / 万枫 / 西安 Delta；含北京–西宁段"
+          },
+          {
             "place": "青甘环线（可可西里·三江源）",
             "country": "中国",
             "region": "青海 / 甘肃",
@@ -194,13 +248,40 @@
         "status": "visited",
         "trips": [
           {
+            "place": "浙江环线（金华·义乌·台州）",
+            "country": "中国",
+            "region": "浙江",
+            "date": "2024-11-18",
+            "year": 2024,
+            "status": "work",
+            "note": "金华/义乌万达嘉华、台州希尔顿；经杭州衢州丽水温州"
+          },
+          {
             "place": "绍兴",
             "country": "中国",
             "region": "浙江",
             "date": "2024-12",
             "year": 2024,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；新昌尊蓝山居；上海 JW 万豪；经上海"
+          },
+          {
+            "place": "江浙（上虞·连云港·南通·上海）",
+            "country": "中国",
+            "region": "多城",
+            "date": "2025-02-10",
+            "year": 2025,
+            "status": "work",
+            "note": "上虞万豪、连云港苏宁索菲特、上海康桥万豪"
+          },
+          {
+            "place": "郑州 · 洛阳 · 杭州",
+            "country": "中国",
+            "region": "河南 · 浙江",
+            "date": "2026-03-09",
+            "year": 2026,
+            "status": "work",
+            "note": "洛阳万宜、郑州高新皇冠假日、杭州西溪智选假日 / 未来科技城万枫"
           },
           {
             "place": "重庆 · 温州 · 郑州",
@@ -228,6 +309,24 @@
         "status": "visited",
         "trips": [
           {
+            "place": "贵阳 · 广州南沙 · 南宁",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-01-23",
+            "year": 2024,
+            "status": "work",
+            "note": "花溪福朋喜来登、南沙喜来登、南宁万豪"
+          },
+          {
+            "place": "广西（南宁·北海·柳州·百色）",
+            "country": "中国",
+            "region": "广西",
+            "date": "2024-11-04",
+            "year": 2024,
+            "status": "work",
+            "note": "南宁万豪、北海香格里拉、柳州兆笙、百色温德姆；含隆林"
+          },
+          {
             "place": "崇左",
             "country": "中国",
             "region": "广西",
@@ -244,13 +343,22 @@
         "status": "visited",
         "trips": [
           {
+            "place": "黑吉（长春·延吉·哈尔滨·鸡西）",
+            "country": "中国",
+            "region": "吉林 · 黑龙江",
+            "date": "2024-11-25",
+            "year": 2024,
+            "status": "work",
+            "note": "长春/哈尔滨香格里拉、延吉希尔顿欢朋"
+          },
+          {
             "place": "东北 / 上海 / 青岛",
             "country": "中国",
             "region": "多城",
             "date": "2025-07",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；2025-07-28 长春/哈尔滨香格里拉；齐齐哈尔·大庆·富裕；另有 07 青岛、长沙、北京分夹"
           },
           {
             "place": "黑龙江",
@@ -269,13 +377,22 @@
         "status": "visited",
         "trips": [
           {
+            "place": "黑吉（长春·延吉·哈尔滨·鸡西）",
+            "country": "中国",
+            "region": "吉林 · 黑龙江",
+            "date": "2024-11-25",
+            "year": 2024,
+            "status": "work",
+            "note": "长春/哈尔滨香格里拉、延吉希尔顿欢朋"
+          },
+          {
             "place": "东北 / 上海 / 青岛",
             "country": "中国",
             "region": "多城",
             "date": "2025-07",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；2025-07-28 长春/哈尔滨香格里拉；齐齐哈尔·大庆·富裕；另有 07 青岛、长沙、北京分夹"
           },
           {
             "place": "银川 · 长春 · 郑州",
@@ -284,7 +401,7 @@
             "date": "2026-09-01",
             "year": 2026,
             "status": "work",
-            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO"
+            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO；中国大饭店、银川万怡、长春香格里拉"
           },
           {
             "place": "吉林",
@@ -303,13 +420,22 @@
         "status": "visited",
         "trips": [
           {
+            "place": "辽蒙宁（银川·包头·赤峰·大连）",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-12-09",
+            "year": 2024,
+            "status": "work",
+            "note": "银川凯宾斯基、包头/大连香格里拉、赤峰假日"
+          },
+          {
             "place": "东北 / 上海 / 青岛",
             "country": "中国",
             "region": "多城",
             "date": "2025-07",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；2025-07-28 长春/哈尔滨香格里拉；齐齐哈尔·大庆·富裕；另有 07 青岛、长沙、北京分夹"
           },
           {
             "place": "沈阳 → 西安 → 郑州",
@@ -318,7 +444,7 @@
             "date": "2025-10",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；抚顺万达嘉华；西安香格里拉 / 蓝溪；郑州中州假日"
           },
           {
             "place": "徐州 · 沈阳 · 太原",
@@ -327,7 +453,7 @@
             "date": "2026-07-05",
             "year": 2026,
             "status": "work",
-            "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX"
+            "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX；沈阳香格里拉；本溪；晋中"
           },
           {
             "place": "辽宁",
@@ -346,11 +472,29 @@
         "status": "visited",
         "trips": [
           {
+            "place": "济南 · 南阳 · 郑州",
+            "country": "中国",
+            "region": "山东 · 河南",
+            "date": "2025-02-17",
+            "year": 2025,
+            "status": "work",
+            "note": "济南喜来登、南阳假日、郑州万怡"
+          },
+          {
             "place": "东北 / 上海 / 青岛",
             "country": "中国",
             "region": "多城",
             "date": "2025-07",
             "year": 2025,
+            "status": "work",
+            "note": "出差报销；2025-07-28 长春/哈尔滨香格里拉；齐齐哈尔·大庆·富裕；另有 07 青岛、长沙、北京分夹"
+          },
+          {
+            "place": "青岛",
+            "country": "中国",
+            "region": "山东",
+            "date": "2026-03-26",
+            "year": 2026,
             "status": "work",
             "note": "出差报销"
           },
@@ -371,13 +515,58 @@
         "status": "visited",
         "trips": [
           {
+            "place": "广州 · 武汉 · 上海",
+            "country": "中国",
+            "region": "多城",
+            "date": "2023-10-09",
+            "year": 2023,
+            "status": "work",
+            "note": "武汉光明万丽；广州–武汉–上海–深圳"
+          },
+          {
+            "place": "南通 · 南京",
+            "country": "中国",
+            "region": "江苏",
+            "date": "2024-11-11",
+            "year": 2024,
+            "status": "work",
+            "note": "南通万豪；经上海，含马鞍山"
+          },
+          {
+            "place": "上海",
+            "country": "中国",
+            "region": "上海",
+            "date": "2025-01-05",
+            "year": 2025,
+            "status": "work",
+            "note": "龙之梦万丽、明捷万丽（约 1.5–1.23）"
+          },
+          {
+            "place": "江浙（上虞·连云港·南通·上海）",
+            "country": "中国",
+            "region": "多城",
+            "date": "2025-02-10",
+            "year": 2025,
+            "status": "work",
+            "note": "上虞万豪、连云港苏宁索菲特、上海康桥万豪"
+          },
+          {
             "place": "东北 / 上海 / 青岛",
             "country": "中国",
             "region": "多城",
             "date": "2025-07",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；2025-07-28 长春/哈尔滨香格里拉；齐齐哈尔·大庆·富裕；另有 07 青岛、长沙、北京分夹"
+          },
+          {
+            "place": "昆明 · 大理",
+            "country": "中国",
+            "region": "云南",
+            "date": "2026-07-15",
+            "year": 2026,
+            "status": "work",
+            "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）；前接上海 Traders、商丘、郑州皇冠假日；昆明 JEN；禄劝"
           },
           {
             "place": "上海",
@@ -396,13 +585,40 @@
         "status": "visited",
         "trips": [
           {
+            "place": "济南 · 南阳 · 郑州",
+            "country": "中国",
+            "region": "山东 · 河南",
+            "date": "2025-02-17",
+            "year": 2025,
+            "status": "work",
+            "note": "济南喜来登、南阳假日、郑州万怡"
+          },
+          {
             "place": "沈阳 → 西安 → 郑州",
             "country": "中国",
             "region": "多城",
             "date": "2025-10",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；抚顺万达嘉华；西安香格里拉 / 蓝溪；郑州中州假日"
+          },
+          {
+            "place": "郑州（多次）",
+            "country": "中国",
+            "region": "河南",
+            "date": "2026-01",
+            "year": 2026,
+            "status": "work",
+            "note": "2026-01 至 2026-05 多次郑州短差"
+          },
+          {
+            "place": "郑州 · 洛阳 · 杭州",
+            "country": "中国",
+            "region": "河南 · 浙江",
+            "date": "2026-03-09",
+            "year": 2026,
+            "status": "work",
+            "note": "洛阳万宜、郑州高新皇冠假日、杭州西溪智选假日 / 未来科技城万枫"
           },
           {
             "place": "深圳 ↔ 郑州（多次）",
@@ -423,13 +639,22 @@
             "note": "06-16 PN6283 CKG–WNZ；06-17 HU7443 WNZ–CGO"
           },
           {
+            "place": "昆明 · 大理",
+            "country": "中国",
+            "region": "云南",
+            "date": "2026-07-15",
+            "year": 2026,
+            "status": "work",
+            "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）；前接上海 Traders、商丘、郑州皇冠假日；昆明 JEN；禄劝"
+          },
+          {
             "place": "银川 · 长春 · 郑州",
             "country": "中国",
             "region": "多城",
             "date": "2026-09-01",
             "year": 2026,
             "status": "work",
-            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO"
+            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO；中国大饭店、银川万怡、长春香格里拉"
           },
           {
             "place": "南京 · 海口 · 郑州",
@@ -463,7 +688,7 @@
             "date": "2025-11",
             "year": 2025,
             "status": "work",
-            "note": "出差报销"
+            "note": "出差报销；乌鲁木齐–库尔勒–和田–阿克苏–成都；成都天府空港智选假日"
           },
           {
             "place": "新疆",
@@ -481,6 +706,51 @@
         "en": "Guangzhou Province",
         "status": "visited",
         "trips": [
+          {
+            "place": "广州",
+            "country": "中国",
+            "region": "广东",
+            "date": "2023-02-09",
+            "year": 2023,
+            "status": "work",
+            "note": "广州西关十甫酒店；高铁入穗；广州→南京→香港返程"
+          },
+          {
+            "place": "佛山 · 顺德",
+            "country": "中国",
+            "region": "广东",
+            "date": "2023-08-01",
+            "year": 2023,
+            "status": "work",
+            "note": "顺德喜来登；高铁深圳北–广州南–容桂"
+          },
+          {
+            "place": "广州 · 武汉 · 上海",
+            "country": "中国",
+            "region": "多城",
+            "date": "2023-10-09",
+            "year": 2023,
+            "status": "work",
+            "note": "武汉光明万丽；广州–武汉–上海–深圳"
+          },
+          {
+            "place": "贵阳 · 广州南沙 · 南宁",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-01-23",
+            "year": 2024,
+            "status": "work",
+            "note": "花溪福朋喜来登、南沙喜来登、南宁万豪"
+          },
+          {
+            "place": "广东（番禺·深圳·潮汕）",
+            "country": "中国",
+            "region": "广东",
+            "date": "2025-03-03",
+            "year": 2025,
+            "status": "work",
+            "note": "番禺喜来登、罗湖香格里拉"
+          },
           {
             "place": "衡阳 / 汕头",
             "country": "中国",
@@ -516,6 +786,24 @@
         "status": "visited",
         "trips": [
           {
+            "place": "岳阳 · 北京",
+            "country": "中国",
+            "region": "湖南 · 北京",
+            "date": "2024-04-10",
+            "year": 2024,
+            "status": "work",
+            "note": "岳阳希尔顿欢朋；北京福朋 / 中国大饭店 / 金隅喜来登"
+          },
+          {
+            "place": "赣湘（长沙·南昌·吉安）",
+            "country": "中国",
+            "region": "湖南 · 江西",
+            "date": "2024-12-16",
+            "year": 2024,
+            "status": "work",
+            "note": "长沙桔子水晶、南昌皇冠假日、吉安格兰云天；含常德萍乡井冈山"
+          },
+          {
             "place": "衡阳 / 汕头",
             "country": "中国",
             "region": "湖南 / 广东",
@@ -541,13 +829,49 @@
         "status": "visited",
         "trips": [
           {
+            "place": "南京",
+            "country": "中国",
+            "region": "江苏",
+            "date": "2023-07-19",
+            "year": 2023,
+            "status": "work",
+            "note": "深圳↔南京机票出差"
+          },
+          {
+            "place": "北京 · 盐城",
+            "country": "中国",
+            "region": "北京 · 江苏",
+            "date": "2024-07-11",
+            "year": 2024,
+            "status": "work",
+            "note": "中国大饭店；北京–盐城–南京–香港"
+          },
+          {
+            "place": "南通 · 南京",
+            "country": "中国",
+            "region": "江苏",
+            "date": "2024-11-11",
+            "year": 2024,
+            "status": "work",
+            "note": "南通万豪；经上海，含马鞍山"
+          },
+          {
+            "place": "江浙（上虞·连云港·南通·上海）",
+            "country": "中国",
+            "region": "多城",
+            "date": "2025-02-10",
+            "year": 2025,
+            "status": "work",
+            "note": "上虞万豪、连云港苏宁索菲特、上海康桥万豪"
+          },
+          {
             "place": "徐州 · 沈阳 · 太原",
             "country": "中国",
             "region": "多城",
             "date": "2026-07-05",
             "year": 2026,
             "status": "work",
-            "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX"
+            "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX；沈阳香格里拉；本溪；晋中"
           },
           {
             "place": "南京 · 海口 · 郑州",
@@ -565,7 +889,7 @@
             "date": "2026-10-26",
             "year": 2026,
             "status": "work",
-            "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；与无锡酒店行程互补"
+            "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；中国大饭店；与无锡万豪、南京雨花万枫行程互补"
           },
           {
             "place": "无锡 · 南京",
@@ -574,7 +898,7 @@
             "date": "2026-10-27",
             "year": 2026,
             "status": "visited",
-            "note": "无锡绿发万豪 10.27–28；Fairfield Nanjing Yuhuatai 10.28–30；同日北京→香港 CX337 过境"
+            "note": "无锡绿发万豪 10.27–28；南京雨花万枫（Fairfield Nanjing Yuhuatai）10.28–30；同日北京→香港 CX337 过境"
           }
         ]
       },
@@ -590,7 +914,7 @@
             "date": "2026-07-05",
             "year": 2026,
             "status": "work",
-            "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX"
+            "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX；沈阳香格里拉；本溪；晋中"
           },
           {
             "place": "山西",
@@ -608,6 +932,15 @@
         "en": "Inner Mongolia Autonomous Region",
         "status": "visited",
         "trips": [
+          {
+            "place": "辽蒙宁（银川·包头·赤峰·大连）",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-12-09",
+            "year": 2024,
+            "status": "work",
+            "note": "银川凯宾斯基、包头/大连香格里拉、赤峰假日"
+          },
           {
             "place": "呼和浩特",
             "country": "中国",
@@ -634,13 +967,22 @@
         "status": "visited",
         "trips": [
           {
+            "place": "辽蒙宁（银川·包头·赤峰·大连）",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-12-09",
+            "year": 2024,
+            "status": "work",
+            "note": "银川凯宾斯基、包头/大连香格里拉、赤峰假日"
+          },
+          {
             "place": "银川 · 长春 · 郑州",
             "country": "中国",
             "region": "多城",
             "date": "2026-09-01",
             "year": 2026,
             "status": "work",
-            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO"
+            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO；中国大饭店、银川万怡、长春香格里拉"
           },
           {
             "place": "宁夏",
@@ -684,13 +1026,85 @@
         "status": "visited",
         "trips": [
           {
+            "place": "北京 · 西安",
+            "country": "中国",
+            "region": "北京 · 陕西",
+            "date": "2023-09-22",
+            "year": 2023,
+            "status": "work",
+            "note": "中国大饭店 / 万枫 / 西安 Delta；含北京–西宁段"
+          },
+          {
+            "place": "北京",
+            "country": "中国",
+            "region": "北京",
+            "date": "2023-10-21",
+            "year": 2023,
+            "status": "work",
+            "note": "多店：桔子 / CitiGo / 金隅喜来登 / 国际饭店 / 中国大饭店"
+          },
+          {
+            "place": "北京",
+            "country": "中国",
+            "region": "北京",
+            "date": "2023-12-10",
+            "year": 2023,
+            "status": "work",
+            "note": "万豪行政公寓、嘉里酒店；经东莞高铁"
+          },
+          {
+            "place": "天津 · 唐山 · 北京",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-03-10",
+            "year": 2024,
+            "status": "work",
+            "note": "天津陆家嘴万怡、海航大厦万豪、嘉里"
+          },
+          {
+            "place": "岳阳 · 北京",
+            "country": "中国",
+            "region": "湖南 · 北京",
+            "date": "2024-04-10",
+            "year": 2024,
+            "status": "work",
+            "note": "岳阳希尔顿欢朋；北京福朋 / 中国大饭店 / 金隅喜来登"
+          },
+          {
+            "place": "北京 · 盐城",
+            "country": "中国",
+            "region": "北京 · 江苏",
+            "date": "2024-07-11",
+            "year": 2024,
+            "status": "work",
+            "note": "中国大饭店；北京–盐城–南京–香港"
+          },
+          {
+            "place": "北京（Kick-off）",
+            "country": "中国",
+            "region": "北京",
+            "date": "2024-08-08",
+            "year": 2024,
+            "status": "work",
+            "note": "中国大饭店"
+          },
+          {
+            "place": "银川 · 长春 · 郑州",
+            "country": "中国",
+            "region": "多城",
+            "date": "2026-09-01",
+            "year": 2026,
+            "status": "work",
+            "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO；中国大饭店、银川万怡、长春香格里拉"
+          },
+          {
             "place": "北京 · 南京（登机牌）",
             "country": "中国",
             "region": "北京 · 江苏",
             "date": "2026-10-26",
             "year": 2026,
             "status": "work",
-            "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；与无锡酒店行程互补"
+            "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；中国大饭店；与无锡万豪、南京雨花万枫行程互补"
           },
           {
             "place": "北京",
@@ -699,7 +1113,7 @@
             "date": "2026-11-11",
             "year": 2026,
             "status": "work",
-            "note": "11-11 CX332 HKG–PEK（差旅壹号出票，国泰经济舱 12:05–15:30）；未见回程票或酒店确认"
+            "note": "11-11 CX332 HKG–PEK（差旅壹号出票，国泰经济舱 12:05–15:30）；北京中国大饭店"
           },
           {
             "place": "北京",
@@ -734,6 +1148,15 @@
         "status": "visited",
         "trips": [
           {
+            "place": "贵阳 · 广州南沙 · 南宁",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-01-23",
+            "year": 2024,
+            "status": "work",
+            "note": "花溪福朋喜来登、南沙喜来登、南宁万豪"
+          },
+          {
             "place": "贵州",
             "country": "中国",
             "region": "贵州",
@@ -749,6 +1172,15 @@
         "en": "Jiangxi Province",
         "status": "visited",
         "trips": [
+          {
+            "place": "赣湘（长沙·南昌·吉安）",
+            "country": "中国",
+            "region": "湖南 · 江西",
+            "date": "2024-12-16",
+            "year": 2024,
+            "status": "work",
+            "note": "长沙桔子水晶、南昌皇冠假日、吉安格兰云天；含常德萍乡井冈山"
+          },
           {
             "place": "江西",
             "country": "中国",
@@ -766,6 +1198,15 @@
         "status": "visited",
         "trips": [
           {
+            "place": "广州 · 武汉 · 上海",
+            "country": "中国",
+            "region": "多城",
+            "date": "2023-10-09",
+            "year": 2023,
+            "status": "work",
+            "note": "武汉光明万丽；广州–武汉–上海–深圳"
+          },
+          {
             "place": "湖北",
             "country": "中国",
             "region": "湖北",
@@ -781,6 +1222,15 @@
         "en": "Anhui Province",
         "status": "visited",
         "trips": [
+          {
+            "place": "南通 · 南京",
+            "country": "中国",
+            "region": "江苏",
+            "date": "2024-11-11",
+            "year": 2024,
+            "status": "work",
+            "note": "南通万豪；经上海，含马鞍山"
+          },
           {
             "place": "安徽",
             "country": "中国",
@@ -798,6 +1248,15 @@
         "status": "visited",
         "trips": [
           {
+            "place": "天津 · 唐山 · 北京",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-03-10",
+            "year": 2024,
+            "status": "work",
+            "note": "天津陆家嘴万怡、海航大厦万豪、嘉里"
+          },
+          {
             "place": "天津",
             "country": "中国",
             "region": "天津",
@@ -813,6 +1272,15 @@
         "en": "Hebei Province",
         "status": "visited",
         "trips": [
+          {
+            "place": "天津 · 唐山 · 北京",
+            "country": "中国",
+            "region": "多城",
+            "date": "2024-03-10",
+            "year": 2024,
+            "status": "work",
+            "note": "天津陆家嘴万怡、海航大厦万豪、嘉里"
+          },
           {
             "place": "河北",
             "country": "中国",
@@ -872,6 +1340,15 @@
         "note": "大量照片；文件夹约2022年7月建"
       },
       {
+        "place": "广州",
+        "country": "中国",
+        "region": "广东",
+        "date": "2023-02-09",
+        "year": 2023,
+        "status": "work",
+        "note": "广州西关十甫酒店；高铁入穗；广州→南京→香港返程"
+      },
+      {
         "place": "梅里雪山",
         "country": "中国",
         "region": "云南",
@@ -879,6 +1356,33 @@
         "year": 2023,
         "status": "visited",
         "note": "2023年五一攻略总结；视频 20230429–0430"
+      },
+      {
+        "place": "南京",
+        "country": "中国",
+        "region": "江苏",
+        "date": "2023-07-19",
+        "year": 2023,
+        "status": "work",
+        "note": "深圳↔南京机票出差"
+      },
+      {
+        "place": "佛山 · 顺德",
+        "country": "中国",
+        "region": "广东",
+        "date": "2023-08-01",
+        "year": 2023,
+        "status": "work",
+        "note": "顺德喜来登；高铁深圳北–广州南–容桂"
+      },
+      {
+        "place": "北京 · 西安",
+        "country": "中国",
+        "region": "北京 · 陕西",
+        "date": "2023-09-22",
+        "year": 2023,
+        "status": "work",
+        "note": "中国大饭店 / 万枫 / 西安 Delta；含北京–西宁段"
       },
       {
         "place": "青甘环线（可可西里·三江源）",
@@ -890,6 +1394,87 @@
         "note": "合同：9月29日–10月3日 5天4晚；无人机视频"
       },
       {
+        "place": "广州 · 武汉 · 上海",
+        "country": "中国",
+        "region": "多城",
+        "date": "2023-10-09",
+        "year": 2023,
+        "status": "work",
+        "note": "武汉光明万丽；广州–武汉–上海–深圳"
+      },
+      {
+        "place": "北京",
+        "country": "中国",
+        "region": "北京",
+        "date": "2023-10-21",
+        "year": 2023,
+        "status": "work",
+        "note": "多店：桔子 / CitiGo / 金隅喜来登 / 国际饭店 / 中国大饭店"
+      },
+      {
+        "place": "北京",
+        "country": "中国",
+        "region": "北京",
+        "date": "2023-12-10",
+        "year": 2023,
+        "status": "work",
+        "note": "万豪行政公寓、嘉里酒店；经东莞高铁"
+      },
+      {
+        "place": "贵阳 · 广州南沙 · 南宁",
+        "country": "中国",
+        "region": "多城",
+        "date": "2024-01-23",
+        "year": 2024,
+        "status": "work",
+        "note": "花溪福朋喜来登、南沙喜来登、南宁万豪"
+      },
+      {
+        "place": "天津 · 唐山 · 北京",
+        "country": "中国",
+        "region": "多城",
+        "date": "2024-03-10",
+        "year": 2024,
+        "status": "work",
+        "note": "天津陆家嘴万怡、海航大厦万豪、嘉里"
+      },
+      {
+        "place": "岳阳 · 北京",
+        "country": "中国",
+        "region": "湖南 · 北京",
+        "date": "2024-04-10",
+        "year": 2024,
+        "status": "work",
+        "note": "岳阳希尔顿欢朋；北京福朋 / 中国大饭店 / 金隅喜来登"
+      },
+      {
+        "place": "北京 · 盐城",
+        "country": "中国",
+        "region": "北京 · 江苏",
+        "date": "2024-07-11",
+        "year": 2024,
+        "status": "work",
+        "note": "中国大饭店；北京–盐城–南京–香港"
+      },
+      {
+        "place": "北京（Kick-off）",
+        "country": "中国",
+        "region": "北京",
+        "date": "2024-08-08",
+        "year": 2024,
+        "status": "work",
+        "note": "中国大饭店"
+      },
+      {
+        "place": "福州",
+        "country": "中国",
+        "region": "福建",
+        "date": "2024-09-08",
+        "year": 2024,
+        "status": "work",
+        "note": "福州香格里拉；经厦门回港"
+      },
+      {
         "place": "冷噶错",
         "country": "中国",
         "region": "四川",
@@ -899,13 +1484,112 @@
         "note": "2024年国庆；包车合同 + 回忆记录（大量照片）"
       },
       {
+        "place": "宁德 · 福安",
+        "country": "中国",
+        "region": "福建",
+        "date": "2024-10-30",
+        "year": 2024,
+        "status": "work",
+        "note": "福安假日、宁德铂骊"
+      },
+      {
+        "place": "广西（南宁·北海·柳州·百色）",
+        "country": "中国",
+        "region": "广西",
+        "date": "2024-11-04",
+        "year": 2024,
+        "status": "work",
+        "note": "南宁万豪、北海香格里拉、柳州兆笙、百色温德姆；含隆林"
+      },
+      {
+        "place": "南通 · 南京",
+        "country": "中国",
+        "region": "江苏",
+        "date": "2024-11-11",
+        "year": 2024,
+        "status": "work",
+        "note": "南通万豪；经上海，含马鞍山"
+      },
+      {
+        "place": "浙江环线（金华·义乌·台州）",
+        "country": "中国",
+        "region": "浙江",
+        "date": "2024-11-18",
+        "year": 2024,
+        "status": "work",
+        "note": "金华/义乌万达嘉华、台州希尔顿；经杭州衢州丽水温州"
+      },
+      {
+        "place": "黑吉（长春·延吉·哈尔滨·鸡西）",
+        "country": "中国",
+        "region": "吉林 · 黑龙江",
+        "date": "2024-11-25",
+        "year": 2024,
+        "status": "work",
+        "note": "长春/哈尔滨香格里拉、延吉希尔顿欢朋"
+      },
+      {
         "place": "绍兴",
         "country": "中国",
         "region": "浙江",
         "date": "2024-12",
         "year": 2024,
         "status": "work",
-        "note": "出差报销"
+        "note": "出差报销；新昌尊蓝山居；上海 JW 万豪；经上海"
+      },
+      {
+        "place": "辽蒙宁（银川·包头·赤峰·大连）",
+        "country": "中国",
+        "region": "多城",
+        "date": "2024-12-09",
+        "year": 2024,
+        "status": "work",
+        "note": "银川凯宾斯基、包头/大连香格里拉、赤峰假日"
+      },
+      {
+        "place": "赣湘（长沙·南昌·吉安）",
+        "country": "中国",
+        "region": "湖南 · 江西",
+        "date": "2024-12-16",
+        "year": 2024,
+        "status": "work",
+        "note": "长沙桔子水晶、南昌皇冠假日、吉安格兰云天；含常德萍乡井冈山"
+      },
+      {
+        "place": "上海",
+        "country": "中国",
+        "region": "上海",
+        "date": "2025-01-05",
+        "year": 2025,
+        "status": "work",
+        "note": "龙之梦万丽、明捷万丽（约 1.5–1.23）"
+      },
+      {
+        "place": "江浙（上虞·连云港·南通·上海）",
+        "country": "中国",
+        "region": "多城",
+        "date": "2025-02-10",
+        "year": 2025,
+        "status": "work",
+        "note": "上虞万豪、连云港苏宁索菲特、上海康桥万豪"
+      },
+      {
+        "place": "济南 · 南阳 · 郑州",
+        "country": "中国",
+        "region": "山东 · 河南",
+        "date": "2025-02-17",
+        "year": 2025,
+        "status": "work",
+        "note": "济南喜来登、南阳假日、郑州万怡"
+      },
+      {
+        "place": "广东（番禺·深圳·潮汕）",
+        "country": "中国",
+        "region": "广东",
+        "date": "2025-03-03",
+        "year": 2025,
+        "status": "work",
+        "note": "番禺喜来登、罗湖香格里拉"
       },
       {
         "place": "孔雀山",
@@ -941,7 +1625,7 @@
         "date": "2025-07",
         "year": 2025,
         "status": "work",
-        "note": "出差报销"
+        "note": "出差报销；2025-07-28 长春/哈尔滨香格里拉；齐齐哈尔·大庆·富裕；另有 07 青岛、长沙、北京分夹"
       },
       {
         "place": "西安（出差）",
@@ -950,7 +1634,7 @@
         "date": "2025-08",
         "year": 2025,
         "status": "work",
-        "note": "出差报销；与 2019 休闲西安区分"
+        "note": "出差报销；与 2019 休闲西安区分；西安香格里拉；咸阳·彬州"
       },
       {
         "place": "沈阳 → 西安 → 郑州",
@@ -959,7 +1643,7 @@
         "date": "2025-10",
         "year": 2025,
         "status": "work",
-        "note": "出差报销"
+        "note": "出差报销；抚顺万达嘉华；西安香格里拉 / 蓝溪；郑州中州假日"
       },
       {
         "place": "新疆",
@@ -968,13 +1652,49 @@
         "date": "2025-11",
         "year": 2025,
         "status": "work",
-        "note": "出差报销"
+        "note": "出差报销；乌鲁木齐–库尔勒–和田–阿克苏–成都；成都天府空港智选假日"
+      },
+      {
+        "place": "平潭",
+        "country": "中国",
+        "region": "福建",
+        "date": "2025-12-03",
+        "year": 2025,
+        "status": "work",
+        "note": "经福州；深圳–福州–平潭往返"
+      },
+      {
+        "place": "郑州（多次）",
+        "country": "中国",
+        "region": "河南",
+        "date": "2026-01",
+        "year": 2026,
+        "status": "work",
+        "note": "2026-01 至 2026-05 多次郑州短差"
       },
       {
         "place": "衡阳 / 汕头",
         "country": "中国",
         "region": "湖南 / 广东",
         "date": "2026-03",
+        "year": 2026,
+        "status": "work",
+        "note": "出差报销"
+      },
+      {
+        "place": "郑州 · 洛阳 · 杭州",
+        "country": "中国",
+        "region": "河南 · 浙江",
+        "date": "2026-03-09",
+        "year": 2026,
+        "status": "work",
+        "note": "洛阳万宜、郑州高新皇冠假日、杭州西溪智选假日 / 未来科技城万枫"
+      },
+      {
+        "place": "青岛",
+        "country": "中国",
+        "region": "山东",
+        "date": "2026-03-26",
         "year": 2026,
         "status": "work",
         "note": "出差报销"
@@ -1004,7 +1724,7 @@
         "date": "2026-07-05",
         "year": 2026,
         "status": "work",
-        "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX"
+        "note": "07-05 HU7745 SZX–XUZ；07-09 3U3244 SHE–TYN；07-11 HU7740 TYN–SZX；沈阳香格里拉；本溪；晋中"
       },
       {
         "place": "昆明 · 大理",
@@ -1013,7 +1733,7 @@
         "date": "2026-07-15",
         "year": 2026,
         "status": "work",
-        "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）"
+        "note": "07-15 MU5575 CGO–KMG；07-18 CZ5150 DLU–SZX（按登机牌标出差）；前接上海 Traders、商丘、郑州皇冠假日；昆明 JEN；禄劝"
       },
       {
         "place": "呼和浩特",
@@ -1031,7 +1751,7 @@
         "date": "2026-09-01",
         "year": 2026,
         "status": "work",
-        "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO"
+        "note": "09-01 PEK–INC；09-02 INC–SZX；09-03 SZX–CGQ；09-05 CGQ–CGO；09-09 SZX–CGO；中国大饭店、银川万怡、长春香格里拉"
       },
       {
         "place": "南京 · 海口 · 郑州",
@@ -1049,7 +1769,7 @@
         "date": "2026-10-26",
         "year": 2026,
         "status": "work",
-        "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；与无锡酒店行程互补"
+        "note": "10-26 HU7702 SZX–PEK；10-31 CZ3560 NKG–SZX；中国大饭店；与无锡万豪、南京雨花万枫行程互补"
       },
       {
         "place": "无锡 · 南京",
@@ -1058,7 +1778,7 @@
         "date": "2026-10-27",
         "year": 2026,
         "status": "visited",
-        "note": "无锡绿发万豪 10.27–28；Fairfield Nanjing Yuhuatai 10.28–30；同日北京→香港 CX337 过境"
+        "note": "无锡绿发万豪 10.27–28；南京雨花万枫（Fairfield Nanjing Yuhuatai）10.28–30；同日北京→香港 CX337 过境"
       },
       {
         "place": "北京",
@@ -1067,7 +1787,7 @@
         "date": "2026-11-11",
         "year": 2026,
         "status": "work",
-        "note": "11-11 CX332 HKG–PEK（差旅壹号出票，国泰经济舱 12:05–15:30）；未见回程票或酒店确认"
+        "note": "11-11 CX332 HKG–PEK（差旅壹号出票，国泰经济舱 12:05–15:30）；北京中国大饭店"
       },
       {
         "place": "香港",
@@ -1168,6 +1888,15 @@
         "year": 2023,
         "status": "visited",
         "note": "签证与机票行程单（约2022末–2023初）；含 LIU Chengzhi 签证 PDF"
+      },
+      {
+        "place": "新加坡（出差）",
+        "country": "新加坡",
+        "region": "",
+        "date": "2026-06-09",
+        "year": 2026,
+        "status": "work",
+        "note": "JEN Hotel Orchard；香港往返；与 2023 休闲新加坡区分"
       }
     ]
   },
@@ -1183,7 +1912,7 @@
         "date": "2024-05",
         "year": 2024,
         "status": "planned",
-        "note": "仅签证须知 PDF；是否成行不详"
+        "note": "仅签证须知 PDF；是否成行不详；用户更正：标为已到访"
       }
     ]
   },
@@ -1351,7 +2080,7 @@
             "date": "2026-10-14",
             "year": 2026,
             "status": "visited",
-            "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24；Seattle Hilton Garden Inn Downtown 2026-10-17–18（Trip.com）"
+            "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
           }
         ]
       },
@@ -1367,7 +2096,7 @@
             "date": "2026-10-14",
             "year": 2026,
             "status": "visited",
-            "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24；Seattle Hilton Garden Inn Downtown 2026-10-17–18（Trip.com）"
+            "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
           },
           {
             "place": "芝加哥 → 费城 → 纽约（东海岸计划）",
@@ -1392,7 +2121,7 @@
             "date": "2026-10-14",
             "year": 2026,
             "status": "visited",
-            "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24；Seattle Hilton Garden Inn Downtown 2026-10-17–18（Trip.com）"
+            "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
           }
         ]
       },
@@ -1408,7 +2137,7 @@
             "date": "2026-10-14",
             "year": 2026,
             "status": "visited",
-            "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24；Seattle Hilton Garden Inn Downtown 2026-10-17–18（Trip.com）"
+            "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
           }
         ]
       },
@@ -1424,7 +2153,7 @@
             "date": "2026-10-14",
             "year": 2026,
             "status": "visited",
-            "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24；Seattle Hilton Garden Inn Downtown 2026-10-17–18（Trip.com）"
+            "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
           }
         ]
       },
@@ -1494,7 +2223,7 @@
         "date": "2026-10-14",
         "year": 2026,
         "status": "visited",
-        "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24；Seattle Hilton Garden Inn Downtown 2026-10-17–18（Trip.com）"
+        "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
       },
       {
         "place": "芝加哥 → 费城 → 纽约（东海岸计划）",
@@ -1524,7 +2253,7 @@
             "date": "2026-10-14",
             "year": 2026,
             "status": "visited",
-            "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"
+            "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
           }
         ]
       }
@@ -1537,7 +2266,7 @@
         "date": "2026-10-14",
         "year": 2026,
         "status": "visited",
-        "note": "HKG→CHI/SEA/MSP/ATL/ELP/YYZ→HKG；Toronto Marriott；10.14–10.24"
+        "note": "HKG→CHI/SEA/MSP/ATL/ELP/DFW/YYZ→HKG；Toronto Marriott；Seattle Hilton Garden Inn Downtown 2026-10-17–18；10.14–10.24；报销夹确认 SEA / YYZ"
       }
     ]
   }
