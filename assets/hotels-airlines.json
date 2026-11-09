@@ -1485,11 +1485,11 @@
       "zh": "国泰",
       "program": "Cathay",
       "kind": "airline_loyalty",
-      "tier": null,
-      "tier_zh": null,
+      "tier": "Gold",
+      "tier_zh": "金卡",
       "logo": "airlines/cathay.svg",
       "iata": "CX",
-      "evidence": "Apple Wallet screenshot 2026-11-05"
+      "evidence": "Apple Wallet screenshot 2026-11-05; CX332 boarding pass dated 2026-11-09 showed Gold + Lounge"
     },
     {
       "id": "accor-all",
