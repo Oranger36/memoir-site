@@ -899,6 +899,15 @@
             "year": 2026,
             "status": "visited",
             "note": "无锡绿发万豪 10.27–28；南京雨花万枫（Fairfield Nanjing Yuhuatai）10.28–30；同日北京→香港 CX337 过境"
+          },
+          {
+            "place": "南京",
+            "country": "中国",
+            "region": "江苏",
+            "date": "2026-11-28",
+            "year": 2026,
+            "status": "visited",
+            "note": "南京丽思卡尔顿（The Ritz-Carlton, Nanjing）11.28–29；尚无机票/高铁记录"
           }
         ]
       },
@@ -1788,6 +1797,15 @@
         "year": 2026,
         "status": "work",
         "note": "11-11 CX312 HKG–PEK（差旅壹号改签，国泰经济舱 17:05–20:30）；北京中国大饭店；11-15 CX337 PEK T3–HKG T1（差旅壹号出票，国泰经济舱 19:30–23:15）"
+      },
+      {
+        "place": "南京",
+        "country": "中国",
+        "region": "江苏",
+        "date": "2026-11-28",
+        "year": 2026,
+        "status": "visited",
+        "note": "南京丽思卡尔顿（The Ritz-Carlton, Nanjing）11.28–29；尚无机票/高铁记录"
       },
       {
         "place": "香港",

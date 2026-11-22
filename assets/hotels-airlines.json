@@ -11,6 +11,18 @@
   ],
   "hotels": [
     {
+      "id": "ritz-nanjing",
+      "name": "The Ritz-Carlton, Nanjing",
+      "brand": "The Ritz-Carlton",
+      "brand_zh": "丽思卡尔顿",
+      "logo": "ritz-carlton.svg",
+      "place": "南京",
+      "dates": [
+        "2026-11-28"
+      ],
+      "evidence": "Marriott confirmation"
+    },
+    {
       "id": "marriott-wuxi",
       "name": "无锡绿发万豪",
       "brand": "Marriott",
