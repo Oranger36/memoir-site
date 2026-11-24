@@ -1564,10 +1564,10 @@
       "zh": "香格里拉金环会",
       "program": "Shangri-La Circle",
       "kind": "hotel_loyalty",
-      "tier": null,
-      "tier_zh": null,
+      "tier": "Diamond",
+      "tier_zh": "钻石卡",
       "logo": "hotels/shangri-la.svg",
-      "evidence": "Apple Wallet screenshot 2026-11-05"
+      "evidence": "Apple Wallet screenshot 2026-11-05; Oliris approved Diamond / 钻石卡 on 2026-11-24"
     },
     {
       "id": "langham-place-club",
