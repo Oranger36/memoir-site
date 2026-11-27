@@ -257,6 +257,18 @@
       "evidence": "confirmation"
     },
     {
+      "id": "ritz-nanjing",
+      "name": "The Ritz-Carlton, Nanjing",
+      "brand": "The Ritz-Carlton",
+      "brand_zh": "丽思卡尔顿",
+      "logo": "ritz-carlton.svg",
+      "place": "南京",
+      "dates": [
+        "2026-11"
+      ],
+      "evidence": "confirmation"
+    },
+    {
       "id": "tribute-g-sz",
       "name": "The G Shenzhen, A Tribute Portfolio Hotel",
       "brand": "Tribute Portfolio",
