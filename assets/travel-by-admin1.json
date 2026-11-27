@@ -944,6 +944,15 @@
             "year": 2026,
             "status": "visited",
             "note": "无锡绿发万豪 10.27–28；南京雨花万枫（Fairfield Nanjing Yuhuatai）10.28–30；同日北京→香港 CX337 过境"
+          },
+          {
+            "place": "南京",
+            "country": "中国",
+            "region": "江苏",
+            "date": "2026-11-27",
+            "year": 2026,
+            "status": "visited",
+            "note": "11-27 CX356 HKG T1–NKG T2（国泰经济舱 10:30–13:00）；南京丽思卡尔顿 11.27–29"
           }
         ]
       },
@@ -1860,6 +1869,15 @@
         "year": 2026,
         "status": "work",
         "note": "HU7736 CGO–SZX 11.25（接 HU7733 11.23）"
+      },
+      {
+        "place": "南京",
+        "country": "中国",
+        "region": "江苏",
+        "date": "2026-11-27",
+        "year": 2026,
+        "status": "visited",
+        "note": "11-27 CX356 HKG T1–NKG T2（国泰经济舱 10:30–13:00）；南京丽思卡尔顿 11.27–29"
       },
       {
         "place": "香港",
